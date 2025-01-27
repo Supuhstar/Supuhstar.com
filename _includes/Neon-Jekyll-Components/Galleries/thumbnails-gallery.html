@@ -1,0 +1,9 @@
+
+<figure class="thumbnail-gallery   card   flex-row flex-wrap flex-horiz-space-around">
+{% for image in include.images -%}
+<a href="{{ image.full }}" target="_blank" class="thumbnail-full-image-link"><img src="{{ image.thumb | default: image.full }}" {%- if image.alt %} alt="{{ image.alt }}" {%- endif %} class="thumbnail" /></a>
+{%- endfor %}
+{%- if include.caption %}
+<figcaption class="caption">{{ include.caption }}</figcaption>
+{%- endif %}
+</figure>

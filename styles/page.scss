@@ -1,0 +1,27 @@
+---
+---
+
+@import "variables";
+@import "general";
+
+
+
+.page {
+
+    --font-size-h1: 2em;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-block: 2em;
+        text-align: center;
+    }
+
+
+    p {
+        margin-block-end: 1em;
+    }
+}

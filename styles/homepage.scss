@@ -1,0 +1,242 @@
+---
+---
+
+@import "variables";
+@import "general";
+
+
+
+:root {
+    --light-theme-background-color: var(--brand-color-primary);
+    --dark-theme-background-color: var(--brand-color-primary-dark);
+    
+    --light-theme-foreground-color: var(--dark-theme-foreground-color);
+    --light-theme-foreground-color--original: hsl(0, 0%, 13%);
+    
+    --intro-animation-duration: {{ site.introAnimationDuration }}s;
+    
+    
+    @at-root
+    .sidebar-shown.full-height-sidebar .app-bar {
+        .show-sidebar-button,
+        .back-to-root-link {
+            --light-theme-foreground-color: var(--light-theme-foreground-color--original) !important;
+        }
+    }
+}
+
+
+
+:root {
+    background: var(--theme-background-color);
+}
+
+
+
+body {
+    // Get rid of the overscroll on homepage
+    margin: 0;
+}
+
+
+
+.app-bar {
+    background: 0;
+    box-shadow: none;
+    position: fixed;
+    
+    transition-property: background-color, color, height, padding, margin, z-index;
+
+    &,
+    * {
+        color: var(--theme-foreground-color) !important;
+    }
+    
+    
+    .sidebar-shown.full-height-sidebar &,
+    [data-sidebar="shown"].full-height-sidebar & {
+        z-index: calc((var(--sidebar-z-index) * 7) + 1);
+    }
+}
+
+
+.sidebar-scrim {
+    z-index: calc(min(var(--z-index-app-bar), var(--z-index-sidebar)) - 1);
+    z-index: calc(var(--z-index-app-bar) - 1);
+}
+
+
+
+svg g[fill="#fff"] {
+    fill: var(--dark-theme-foreground-color);
+}
+
+
+
+.full-viewport-size {
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+}
+
+
+
+#homepage-background {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    min-width: 100vw;
+    min-height: 100vh;
+    pointer-events: none;
+}
+
+
+
+#portal-list {
+    --button-border-radius: 0.5ex;
+    --button-margin: 1ex;
+    --font-size-large-button: 36px;
+
+    position: relative;
+    z-index: 3;
+
+
+    .button {
+        background: var(--button-text-color);
+        color: var(--button-background);
+    }
+}
+
+
+
+#brand-name {
+    font-size: 11vh;
+    text-align: center;
+    padding: var(--app-bar-height-auto) 0.5ex 0.5ex;
+    position: static;
+    z-index: 1;
+
+    --base-offset: 0.4ex;
+    --half-offset: calc(var(--base-offset) / 2);
+    --fg-offset-x: 0px;// calc(0ex - (2 * var(--base-offset)));
+    --fg-offset-y: var(--base-offset);
+    --bg-offset-x: 0px;// calc(var(--fg-offset-x) / 2);
+    --bg-offset-y: calc(var(--fg-offset-y) / 2);
+    --gap-color: var(--theme-background-color);
+
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.15, 0, 0, 1);
+
+    // text-shadow:
+    //     calc(var(--bg-offset-x) * 1) calc(var(--bg-offset-y) *  1) 0 var(--gap-color), calc(var(--fg-offset-x) * 1) calc(var(--fg-offset-y) *  1) 0 var(--logo-effect-color-1),
+    //     calc(var(--bg-offset-x) * 3) calc(var(--bg-offset-y) *  2) 0 var(--gap-color), calc(var(--fg-offset-x) * 2) calc(var(--fg-offset-y) *  2) 0 var(--logo-effect-color-2),
+    //     calc(var(--bg-offset-x) * 5) calc(var(--bg-offset-y) *  4) 0 var(--gap-color), calc(var(--fg-offset-x) * 3) calc(var(--fg-offset-y) *  4) 0 var(--logo-effect-color-3),
+    //     calc(var(--bg-offset-x) * 7) calc(var(--bg-offset-y) *  8) 0 var(--gap-color), calc(var(--fg-offset-x) * 4) calc(var(--fg-offset-y) *  8) 0 var(--logo-effect-color-4),
+    //     calc(var(--bg-offset-x) * 9) calc(var(--bg-offset-y) * 16) 0 var(--gap-color), calc(var(--fg-offset-x) * 5) calc(var(--fg-offset-y) * 16) 0 var(--logo-effect-color-5);
+
+    @media(max-aspect-ratio: 1/2) {
+        font-size: 15vw;
+    }
+
+    @media(min-aspect-ratio: 2/1) {
+        font-size: 16vh;
+    }
+
+    @at-root
+    .ready-for-intro-animation:not(.go-for-intro-animation) {
+        @include has-intro-animation {
+            &#brand-name {
+                transition-duration: 0s !important;
+            }
+        }
+    }
+
+
+
+
+    // TODO: When Chrome and Firefox support property animations, use this:
+
+//     animation-name: brandShadowIntro;
+//     animation-delay: 1s;
+//     animation-fill-mode: both;
+//     animation-duration: 3s;
+//     animation-timing-function: cubic-bezier(.15, 0, 0, 1);
+// }
+//
+//
+//
+// @keyframes brandShadowIntro {
+//     from {
+//         transition-property: all;
+//         --gap-color: transparent;
+//         --base-offset: 100vh;
+//     }
+//
+//     80% {
+//         --gap-color: transparent;
+//         --base-offset: 20vh;
+//     }
+//
+//     85% {
+//         --gap-color: var(--theme-background-color);
+//         --base-offset: 15vh;
+//     }
+//
+//     to {
+//         transition-property: all;
+//         --gap-color: var(--theme-background-color);
+//         --base-offset: 0vh;
+//     }
+}
+
+
+// TODO: Until Chrome and Firefox support property animations, here's a bodge:
+
+.ready-for-intro-animation {
+
+    &.go-for-intro-animation {
+        @include has-intro-animation {
+            transition-duration: var(--intro-animation-duration) !important;
+        }
+    }
+
+    .has-slide-in-from-bottom-left-animation {
+        transition-property: transform;
+        transition-duration: calc(var(--intro-animation-duration) * 0.75) !important;
+
+        @at-root
+        .ready-for-intro-animation:not(.go-for-intro-animation):not(.intro-animation-complete) .has-slide-in-from-bottom-left-animation {
+            transition-property: none;
+            transform: translate(-260vmax, 150vmax);
+        }
+
+        @at-root
+        .ready-for-intro-animation.go-for-intro-animation .has-slide-in-from-bottom-left-animation {
+            --base-offset: 0vh !important;
+        }
+    }
+
+    .has-shadow-intro-animation {
+        --base-offset: 100vh !important;
+        --gap-color: transparent !important;
+
+        @at-root
+        .ready-for-intro-animation:not(.go-for-intro-animation) .has-shadow-intro-animation {
+            transition-property: color, font-size;
+
+            --logo-effect-color-1: var(--theme-background-color);
+            --logo-effect-color-2: var(--theme-background-color);
+            --logo-effect-color-3: var(--theme-background-color);
+            --logo-effect-color-4: var(--theme-background-color);
+            --logo-effect-color-5: var(--theme-background-color);
+        }
+
+        @at-root
+        .ready-for-intro-animation.go-for-intro-animation .has-shadow-intro-animation {
+            --base-offset: 0vh !important;
+        }
+    }
+}

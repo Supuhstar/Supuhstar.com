@@ -1,0 +1,32 @@
+
+
+@import "decorations";
+
+
+
+/*
+ * Rules used on all pages:
+ */
+
+:root {
+    min-width: 17em;
+}
+
+
+.app-bar {
+    .title-text {
+        text-transform: none;
+    }
+}
+
+
+.container {
+    max-width: var(--desktop-medium-min-width);
+}
+
+
+.sidebar {
+    .avatar {
+        height: 4cm;
+    }
+}

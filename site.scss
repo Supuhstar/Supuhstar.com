@@ -1,0 +1,12 @@
+---
+---
+
+@import "general";
+
+
+
+:root {
+    --brand-color-primary: {{ site.brand.color.primary | default: "#1E007C" }};
+
+    --brand-color-primary-dark: {{ site.brand.primary-color-dark | default: "#1E007C" }};
+}

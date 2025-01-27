@@ -1,0 +1,123 @@
+---
+
+#
+# This file contains configuration flags to customize this site
+#
+
+# Name of the site (displayed in the content)
+name: Northstar System
+# Name of the site (displayed in the tab)
+title: TODO
+
+# Short bio or description (in share links)
+description: The Northstar System talk about their experiences in plurality
+
+
+brand:
+    name: The Northstar✨ System
+    color:
+        primary: "#1E007C"
+
+social:
+    default-username: Supuhstar
+    email: Hi@Supuhstar.com
+    github: Supuhstar/Supuhstar.com
+    bsky: Supuhstar.com
+    telegram: Supuhstar
+
+authors:
+    -
+        role: Primary
+        name: The Northstar System
+        shortName: North
+        tagline-html: 35+ Friends in one!
+        avatar: https://www.gravatar.com/avatar/1ce4f883386943604d6e2f496f9d4d4122f690da?s=284px
+
+        social:
+            blog: https://TODO-unnamed-blog.Supuhstar.com
+            email: Northstar@Supuhstar.com
+            github-suffix:
+                this: Supuhstar/Supuhstar.com
+                personal: Supuhstar
+            mastodon:
+                instance: plural.cafe
+                username: Ky
+            bsky: Supuhstar.com
+            website: https://Supuhstar.com
+
+dates:
+    launch: 2025-01-14
+    newest:
+        web: 2025-01-14
+
+
+introAnimationDuration: 4
+
+default-theme:
+    color: air
+    brightness: dark
+
+sidebar:
+    headerImage:
+        picture:
+            sources:
+                - /images/Northstar System Brand Header • Full Bleed (16-9) @486p.webp
+                - /images/Northstar System Brand Header • Full Bleed (16-9) @486p.jpg
+            alt: "Northstar System"
+    defaultLinks:
+        -
+            url: /Headmates
+            text: Headmates list
+        -
+            url: /Blog
+            text: Blog
+        -
+            url: /Contact
+            text: Contact
+
+# This website URL
+# Used for Sitemap.xml and the RSS feed
+url: https://BHStudios.org
+source-code:
+    url: https://github.com/BlueHuskyStudios/BHStudios.org
+
+
+timezone: America/Denver
+
+
+
+# Low-level config lines #
+
+
+permalink: /:title
+
+# The release of Jekyll that this site is using
+version: v3.8.5
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+    # Use GitHub flavored markdown, including triple backtick fenced code blocks
+    input: GFM
+    # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+    syntax_highlighter: rouge
+    syntax_highlighter_opts:
+        # Use existing pygments syntax highlighting css
+        css_class: 'highlight'
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+    style: :expanded  # You might prefer to minify using :compressed
+
+# Use the following plug-ins
+plugins:
+    - jekyll-sitemap  # Create a sitemap using the official Jekyll sitemap gem
+    - jekyll-feed  # Create an Atom feed using the official Jekyll feed gem
+    - jekyll-archives
+    - jekyll-redirect-from  # Allow multiple names for a page
+
+# Exclude these files from your production _site
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - README.md
+    - CNAME

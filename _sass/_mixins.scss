@@ -1,0 +1,12 @@
+
+
+
+@mixin has-intro-animation {
+    & [class~=" has-"],
+    & [class^="has-"] {
+        &[class~="-intro-animation "],
+        &[class$="-intro-animation"] {
+            @content;
+        }
+    }
+}
