@@ -85,23 +85,5 @@ wrote the original 😉
 
 {{ content }}
 
-
-<footer class="centered  widest-desktop-small">
-    <section class="show-print text-centered">
-        {{ site.url }}{{ page.url }}
-    </section>
-
-    <aside class="text-center">
-        {% if page.date-modified %}
-        Last tweaked <time datetime="{{ page.date-modified | date_to_xmlschema }}">{{ page.date-modified | date: "%F (a %A) at %R %Z" }}</time>
-        {% elsif page.date %}
-        Created <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%F (a %A) at %R %Z" }}</time>
-        {% endif %}
-    </aside>
-</footer>
-
-
-
-{% include Neon-Jekyll-Components/Sidebar/sidebar.html %}
 </body>
 </html>

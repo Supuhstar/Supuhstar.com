@@ -1,0 +1,106 @@
+---
+---
+
+:root {
+    --headmate-card-width: 3in;
+}
+
+
+.headmate {
+    &.card {
+        .flex-row>& {
+            flex-basis: var(--headmate-card-width);
+        }
+        
+        &:target {
+            box-shadow: var(--card-shadow-raised);
+            border-color: var(--theme-accent-color);
+        }
+        
+        &,
+        &>figcaption {
+            &>*:last-child {
+                margin-block-end: 0;
+            }
+        }
+    }
+    
+    
+    img.avatar {
+        min-height: 1in;
+        border-radius: calc(var(--card-border-radius, 1ex) - var(--card-border-thickness, 1px));
+        margin-block-start: calc(0px - var(--card-padding-block-start));
+        margin-inline-start: calc(0px - var(--card-padding-inline-start));
+        margin-inline-end: calc(0px - var(--card-padding-inline-end));
+        margin-bottom: 1ex;
+        width: 100%;
+        width: calc(100% + var(--card-padding-block-start) + var(--card-padding-block-end));
+        max-height: calc(max(50vh, var(--headmate-card-width)));
+        
+        &[src=""] {
+            width: auto;
+            background: var(--subtheme-color-primary, var(--theme-background-color-at-level-3));
+        }
+    }
+    
+    
+    .headmate-name {
+        strong {
+            font-size: var(--font-size-h3);
+        }
+        
+        span {
+            display: inline-block;
+        }
+    }
+    
+    
+    .permalink {
+        transition-property: opacity;
+        opacity: 0;
+        
+        @at-root .headmate:hover .permalink {
+            opacity: 1;
+        }
+    }
+    
+    
+    header {
+        margin-block-end: 1em;
+        
+        &>p {
+            margin: 0;
+            
+            &:not(.headmate-name) {
+                font-size: var(--font-size-aside);
+            }
+        }
+    }
+    
+    
+    .headmate-links {
+        &:empty {
+            display: none;
+        }
+    }
+    
+    
+    blockquote {
+        border: 1px solid var(--card-border-color);
+        border-radius: var(--card-border-radius);
+        margin-block: 1em;
+        padding: 1ex;
+        
+        font-style: italic;
+        font-family: serif; // TODO: --theme-font-family-quote = --theme-font-family-serif = --font-family-serif
+        
+        &>p:last-child {
+            margin-block-end: 0;
+        }
+    }
+}
+
+
+#main.container {
+    max-width: var(--desktop-medium-max-width);
+}

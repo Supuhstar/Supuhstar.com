@@ -1,0 +1,119 @@
+{%- assign headmate = include.headmate | default: include -%}
+{%- unless headmate.kind.first -%}
+    {%- assign __tmp = headmate.kind | split: "__SPLIT-TO-ARRAY-HERE__" -%}
+    {%- assign headmate.kind = "" | split: "" -%}
+    {%- assign headmate.kind = headmate.kind | concat: __tmp -%}
+{%- endunless -%}
+
+{%- assign id = headmate.id | default: headmate.name -%}
+
+<figure class="headmate card" {%- if id %} id="{{ id }}" {%- endif -%}>
+    {%- if headmate.color.primary.hex and id %}
+    <style>
+        #{{ id }} {
+            --subtheme-color-primary: #{{ headmate.color.primary.hex }};
+        }
+    </style>
+    {%- endif -%}
+    
+    {%- if headmate.avatar %}
+    <a href="{{ headmate.avatar.url }}" target="_blank" decoding="async" fetchpriority="low" loading="lazy"><img class="avatar" src="{{ headmate.avatar.url }}" /></a>
+    {%- endif %}
+    <figcaption>
+        <header>
+            <p class="headmate-name"><strong>{{ headmate.name }}</strong>
+                {%- if headmate.name-alt -%}
+                    {%- for alt-name in headmate.name-alt %}
+                or <strong>{{ alt-name }}</strong>
+                    {%- endfor -%}
+                {%- endif -%}
+                
+                {%- if headmate.name-pronunciation %}
+                <span>(pronounced “{{ headmate.name-pronunciation }}”)</span>
+                {%- endif -%}
+                
+                {%- if headmate.full-name %}
+                <span>({{ headmate.full-name }})</span>
+                {%- endif -%}
+                
+                {%- if headmate.collective-name %}
+                <span>(
+                    {%- if headmate.kind contains "subsystem" -%}
+                        subsystem name:
+                    {%- else -%}
+                        collectively,
+                    {%- endif -%}
+                 &nbsp;<strong>{{ headmate.collective-name }}</strong>)</span>
+                {%- endif -%}
+                
+                {%- if id %}
+                <a href="{{ page.url }}#{{ id }}" class="permalink"> <i class="fas fa-link"></i></a>
+                {%- endif -%}
+            </p>
+            {%- if headmate.kind or headmate.pronouns %}
+            <p class="headmate-kind-and-pronouns">(
+                {%- assign kindString = headmate.kind | join: ", " | split: "__SPLIT-TO-ARRAY-HERE__" -%}
+                {%- assign pronounsString = headmate.pronouns | join: ", " | split: "__SPLIT-TO-ARRAY-HERE__" -%}
+                {%- assign __tmp = "" | split: "" -%}
+                {%- assign __tmp = __tmp | concat: kindString -%}
+                {%- assign __tmp = __tmp | concat: pronounsString -%}
+                {{- __tmp | join: "; " -}}
+            )</p>
+            {%- endif %}
+            {%- if headmate.gender %}
+            <p class="headmate-gender">{{ headmate.gender | join: ", " }}</p> {%- comment -%} FIXME: Works, but seems fragile {%- endcomment %}
+            {%- endif -%}
+            {%- if headmate.emoji %}
+            <p class="headmate-emoji">{{ headmate.emoji | join: " " }}</p>
+            {%- endif -%}
+        </header>
+        {%- for line in headmate.bio %}
+        <p markdown="1">{{ line }}</p>
+        {%- endfor %}
+        
+        {%- if headmate.quote %}
+        {%- for line in headmate.quote %}
+        <blockquote>
+        <p markdown="1">{{ line }}</p>
+        </blockquote>
+        {%- endfor %}
+        {%- endif %}
+        
+        {%- if headmate.links %}
+            {%- assign __anyShown = false -%}
+            {%- for link in headmate.links -%}
+                {%- case link[1].status -%}
+                    {%- when "service-unavailable", "hide" -%}
+                        {%- assign link[1].hide = true -%}
+                        
+                    {%- else -%}
+                        {%- assign link[1].hide = false -%}
+                        {%- assign __anyShown = true -%}
+                {%- endcase -%}
+            {%- endfor -%}
+        
+            {%- if __anyShown -%}
+        <ul class="headmate-links">
+                {%- for link in headmate.links -%}
+                    {%- case link[1].status -%}
+                        {%- when "service-unavailable", "hide" -%}
+                            {%- assign link[1].hide = true -%}
+                            
+                        {%- else -%}
+                            {%- assign link[1].hide = false -%}
+                    {%- endcase -%}
+                    
+                    {%- unless __shouldHide -%}
+                <li>{{ link[0] }}: <a href="{{ link[1].url }}" target="_blank">{{ link[1].display }}</a></li>
+                    {%- endunless -%}
+                {%- endfor -%}
+        </ul>
+            {%- endif -%}
+        {%- endif %}
+        
+        
+        {%- if headmate.avatar.credit %}
+        <cite>Avatar by <a href="{{ headmate.avatar.credit.url }}" target="_blank">{{ headmate.avatar.credit.display }}</a></cite>
+        {%- endif %}
+    </figcaption>
+</figure>

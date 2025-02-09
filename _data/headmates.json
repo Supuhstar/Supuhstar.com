@@ -1,0 +1,673 @@
+{
+    "format-version": "0.1.0",
+    "headmates": [
+        {
+            "uuid": "We4xab27TlCn7GErL92E4w",
+            "name": "Ash", "full-name": "Ash Nova Northstar",
+            "pronouns": ["he/him", "they/them"],
+            "kind": "alter",
+            "emoji": "💙",
+            "bio": [
+                "Our first host. Throughout Our life pre-integration, he used to go dormant every few years, each time a different host taking over.",
+                "These days they’s a common fronter. He is a husky."],
+            "avatar": {
+                "url": "https://i.postimg.cc/7L8XYHWX/Ash.jpg"
+            },
+            "supersystem-id": "qCKQ+/dNSzWoe/VA9jokmQ"
+        },
+        {
+            "uuid": "SjMxdPN9RdW+wLvjWfnJzA",
+            "name": "Rayne",
+            "pronouns": ["they/him/her (all situational)", "it/its (affectionate, like a pet)"],
+            "kind": "alter",
+            "emoji": "🤎",
+            "bio": [
+                "A Cheshire Shep puppy who joined the system as a persecutor-protector around 2003.",
+                "Hisorically has held a lot of anxiety and apologized a lot, but recently is working on healing from that.",
+                "Genderfluid age slider who can get stuck in littlespace."],
+            "links": {
+                "Telegram": {
+                    "status": "hide",
+                    "url": "https://t.me/KyNorthstar",
+                    "display": "@KyNorthstar"
+                },
+                "Mastodon": {
+                    "status": "service-unavailable",
+                    "url": "https://plural.cafe/@Rayne",
+                    "display": "@Rayne@plural.cafe"
+                },
+                "Twitter": {
+                    "status": "service-unavailable",
+                    "url": "https://twitter.com/RayneHugs",
+                    "display": "@RayneHugs"
+                }
+            },
+            "avatar": {
+                "url": "https://i.postimg.cc/4NyWWFcv/Rayne.jpg",
+                "credit": {
+                    "display": "Render Boy",
+                    "url": "https://linktr.ee/renderboy_"
+                }
+            },
+            "supersystem-id": "qCKQ+/dNSzWoe/VA9jokmQ"
+        },
+        {
+            "uuid": "TbgGJlMjSb+8WdZthZoFiw",
+            "name": "Dax",
+            "kind": "alter",
+            "pronouns": "any pronouns",
+            "emoji": "💜",
+            "bio": "They’s a Core alter. Xe is the system therapist. He’s also into mystical things like shamanism. She was the primary host from mid 2020 til July 2022. It’s asexual",
+            "links": {
+                "Telegram": {
+                    "status": "hide",
+                    "url": "https://t.me/KyNorthstar",
+                    "display": "@KyNorthstar"
+                },
+                "Mastodon": {
+                    "status": "service-unavailable",
+                    "url": "https://plural.cafe/@Dax",
+                    "display": "@Dax@plural.cafe"
+                },
+                "Twitter": {
+                    "status": "service-unavailable",
+                    "url": "https://twitter.com/SnepDerg",
+                    "display": "@SnepDerg"
+                }
+            },
+            "avatar": {
+                "url": "https://i.postimg.cc/pL9KFwF7/Dax.png",
+                "credit": {
+                    "display": "Topknot",
+                    "url": "https://linktr.ee/dear_topknot"
+                }
+            },
+            "supersystem-id": "qCKQ+/dNSzWoe/VA9jokmQ"
+        },
+        {
+            "uuid": "64TxntWfTfOp+BFddZ+Lqg",
+            "name": "Bate",
+            "kind": ["alter", "tulpa"],
+            "pronouns": ["it/they/she", "him in a butch way"],
+            "emoji": ["🩶","🦈"],
+            "bio": ["She's an anthro leopard shark, created on-purpose in July 2023 to join as a new host.",
+                "They made themself an introject of Mischief and Quick Brown Fox from Halley Labs."],
+            "quote": "Fuck gender",
+            "avatar": {
+                "url": "https://i.postimg.cc/WbYHjPVf/Bate.jpg"
+            },
+            "supersystem-id": "qCKQ+/dNSzWoe/VA9jokmQ"
+        },
+        {
+            "uuid": "qCKQ+/dNSzWoe/VA9jokmQ",
+            "name": "Arc", "collective-name": "Arx",
+            "pronouns": ["he/him", "they/them"],
+            "kind": ["alter", "subsystem"],
+            "emoji": "💖",
+            "bio": [
+                "The core of Our system. A kind fox.",
+                "Introject of Tod from _The Fox and the Hound_."],
+            "avatar": {
+                "url": "https://i.postimg.cc/mDSm5vVj/Arc.jpg"
+            },
+            "supersystem-id": "aHAMEKIHRwC18C0BmGYBEw"
+        },
+        
+        
+        
+        {
+            "uuid": "4DebZP5TSTu9nvT0by/Xsw",
+            "name": "Chris", "full-name": "Chris “Redd” Slade",
+            "pronouns": "he/him",
+            "kind": "alter",
+            "emoji": "❤️",
+            "bio": [
+                "Just A Dude™.",
+                "Binary heterosexual man. Not straight. Anthro pangolin.",
+                "A Klone, worker who specializes in planning and executing tasks which need to be done. Lots of determination! Works well with Slade."],
+            "quote": [
+                "I get things done",
+                "I am my father's son"],
+            "links": {
+                "Telegram": {
+                    "status": "hide",
+                    "url": "https://t.me/KyNorthstar",
+                    "display": "@KyNorthstar"
+                },
+                "Twitter": {
+                    "status": "service-unavailable",
+                    "url": "https://twitter.com/Redd_Slade",
+                    "display": "@Redd_Slade"
+                }
+            },
+            "avatar": {
+                "url": "https://i.postimg.cc/J4FPvc3f/Chris.jpg"
+            },
+            "supersystem-id": "aHAMEKIHRwC18C0BmGYBEw"
+        },
+        {
+            "uuid": "CRiRwk8fQWCeZtXw4ka4qw",
+            "name": "Eevie",
+            "pronouns": "they/she/it",
+            "kind": "alter",
+            "emoji": "🧡",
+            "bio": "She joined in April 2022. They is an ace lesbian. It is a kitsune, and enjoys taking care of loved ones.",
+            "links": {
+                "Telegram": {
+                    "status": "hide",
+                    "url": "https://t.me/EevieFox",
+                    "display": "@EevieFox"
+                },
+                "Twitter": {
+                    "status": "service-unavailable",
+                    "url": "https://twitter.com/EevieFox",
+                    "display": "@EevieFox"
+                }
+            },
+            "avatar": {
+                "url": "https://i.postimg.cc/sx6wV5kZ/Eevie.jpg",
+                "credit": {
+                    "display": "Things By Diana",
+                    "url": "http://LinkTr.ee/thingsbydiana"
+                }
+            },
+            "supersystem-id": "aHAMEKIHRwC18C0BmGYBEw"
+        },
+        {
+            "uuid": "bWZv3A45QN6Eo9WiGSgmPA",
+            "name": "Mil",
+            "pronouns": "any pronouns",
+            "kind": "alter",
+            "emoji": "🖤",
+            "bio": "A chill undead bat. Slow, calm, supportive.",
+            "links": {
+                "Telegram": {
+                    "status": "hide",
+                    "url": "https://t.me/KyNorthstar",
+                    "display": "@KyNorthstar"
+                },
+                "Mastodon": {
+                    "status": "service-unavailable",
+                    "url": "https://plural.cafe/@Mil",
+                    "display": "@Mil@plural.cafe"
+                },
+                "Twitter": {
+                    "status": "service-unavailable",
+                    "url": "https://twitter.com/MilBeChill",
+                    "display": "@MilBeChill"
+                }
+            },
+            "avatar": {
+                "url": "https://i.postimg.cc/RZnXB6XN/Mil.jpg"
+            },
+            "supersystem-id": "aHAMEKIHRwC18C0BmGYBEw"
+        },
+        {
+            "uuid": "wbcPJqVeQ4ewmmaNwtymsA",
+            "name": "Silver",
+            "pronouns": "she/her",
+            "sexuality": "Asexual",
+            "kind": "alter",
+            "emoji": ["🪡", "♥️"],
+            "bio": [
+                "An older anthro aquatic dragon. She is mute, elegant, caring, motherly.",
+                "She's an introject of Our partner-system's alter Whispers."],
+            "links": {
+                "Twitter": {
+                    "status": "service-unavailable",
+                    "url": "https://twitter.com/Unspoken_Thread",
+                    "display": "@Unspoken_Thread"
+                }
+            },
+            "avatar": {
+                "url": "https://i.postimg.cc/Yqvx6Lcb/Silver.jpg"
+            },
+            "supersystem-id": "aHAMEKIHRwC18C0BmGYBEw"
+        },
+        {
+            "uuid": "DXRgRJNFR9qI5kg/1s78VA",
+            "name": "Charcole",
+            "pronouns": "he/him",
+            "kind": "alter",
+            "emoji": "🩵",
+            "bio": [
+                "He’s a Charizard, whose coloring is white, blue, and black.
+He speaks with a slight southern USA accent."],
+            "links": {
+                "Twitter": {
+                    "status": "service-unavailable",
+                    "url": "https://twitter.com/Unspoken_Thread",
+                    "display": "@Unspoken_Thread"
+                }
+            },
+            "avatar": {
+                "url": "https://i.postimg.cc/8Pz0qz26/Charcole.jpg",
+                "generated": {
+                    "partially": true,
+                    "generator": "indigoFurryMix 4.0"
+                }
+            },
+            "supersystem-id": "aHAMEKIHRwC18C0BmGYBEw"
+        },
+        {
+            "uuid": "aHAMEKIHRwC18C0BmGYBEw",
+            "name": "Kymera", "collective-name": "The Klones",
+            "pronouns": "they/it", "gender": "Polygender",
+            "kind": ["alter", "subsystem"],
+            "emoji": "💖",
+            "bio": [
+                "The host of Our system. A protogen kobold!"],
+            "avatar": {
+                "url": "https://i.postimg.cc/25QGqppY/Kymera.png"
+            }
+        },
+        
+        
+        
+        {
+            "uuid": "2w00s/FjTUiSln4MP4Lojw",
+            "name": "Joel",
+            "pronouns": "he/him",
+            "kind": "alter",
+            "emoji": ["⚫","🛡️"],
+            "bio": [
+                "He’s a subdued and protective large masculine Scottish elder dragon. He actively & directly protects the system, its body, and its loved ones from physical & emotional harm.",
+                "Before integration, he tended to more completely feel emotions like anger, disdain, resentment, aggression, etc.; others only felt these briefly or muted."],
+            "quote": "Bide your tongue and take care of the little ones",
+            "links": {
+                "Telegram": {
+                    "url": "https://t.me/YourDragonJoel",
+                    "display": "@YourDragonJoel"
+                },
+                "Twitter": {
+                    "status": "service-unavailable",
+                    "url": "https://twitter.com/YourDragonJoel",
+                    "display": "@YourDragonJoel"
+                }
+            },
+            "avatar": {
+                "url": "https://i.postimg.cc/3wmSg4vP/Joel.jpg",
+                "generated": {
+                    "partially": true,
+                    "generator": "indigoFurryMix 4.0"
+                }
+            }
+        },
+        {
+            "uuid": "FafoD1NxRfWHVDlw3bKrzA",
+            "name": "Kobalt",
+            "pronouns": "he/it",
+            "kind": "alter companion",
+            "emoji": "none yet selected",
+            "bio": "He’s [Joel](#Joel)’s kobold. Soft scotchirish accent",
+            "avatar": {
+                "url": "https://i.postimg.cc/fLN7x4kw/Kobalt.jpg"
+            }
+        },
+        {
+            "uuid": "BiPGdG1vQa6AOyOYtqT6BA",
+            "name": "Mendo", "full-name": "N'stachtlr",
+            "pronouns": ["hri/hem/hris/hemself", "he/him"],
+            "kind": "alter",
+            "emoji": "❤️‍🔥",
+            "bio": "Former prosecutor, tiefling/demon. Rediscovering himself.",
+            "quote": "Don't let your life end without exploring yourself",
+            "avatar": {
+                "url": "https://i.postimg.cc/bwGFwFNY/Mendo.jpg",
+                "generated": {
+                    "partially": true,
+                    "generator": "indigoFurryMix 4.0"
+                }
+            }
+        },
+        {
+            "uuid": "QFwX/2pWTTi2iMw26ArL3g",
+            "name": "Aaorl",
+            "pronouns": "he/it",
+            "kind": "alter companion",
+            "emoji": ["❤️‍🔥", "🐺"],
+            "bio": ["He’s [Mendo](#Mendo)’s hellhound. Acts similarly to Mendo but more playful, with a kinda Sidekick mindset.",
+                "It resurfaced in October 2023. He’s been dormant for awhile. It has past-life memories of fighting & living alongside Mendo. He's a quadroped hellhound, like a smokey Dire Wolf. Massive dog energy."],
+            "quote": "Don't let your life end without exploring yourself",
+            "avatar": {
+                "url": "https://i.postimg.cc/G37QTJf4/Aaorl.jpg"
+            }
+        },
+        {
+            "uuid": "/e/fwvwJRg+0k//Pd9QWPw",
+            "name": "Raven",
+            "pronouns": "they/it",
+            "kind": "alter",
+            "emoji": "💛️",
+            "bio": [
+                "A genderless raven. It’s wonderfully curious and sweet. They loves nature and philosophy",
+                "Before integration, their role once was to contain fear, anxiety, dread, etc.; others would only feel these briefly or muted before integration."
+            ],
+            "links": {
+                "Telegram": {
+                    "url": "https://t.me/VeryGoodBird",
+                    "display": "@VeryGoodBird"
+                },
+                "Twitter": {
+                    "status": "service-unavailable",
+                    "url": "https://twitter.com/AVeryGoodBird",
+                    "display": "@AVeryGoodBird"
+                }
+            },
+            "avatar": {
+                "url": "https://i.postimg.cc/tgjtGrsM/Raven.jpg",
+                "credit": {
+                    "display": "Hecate Nocturne",
+                    "url": "https://t.me/HecateNocturne"
+                }
+            }
+        },
+        {
+            "uuid": "9fA+WIqOQdWeVI7jc1SrXg",
+            "name": "Luz",
+            "pronouns": "she/her",
+            "kind": "alter",
+            "emoji": ["💗", "🩷"],
+            "bio": "She’s a femme bi dyke bitch. She joined the system in college (2009) to protect us from attacks on our identity (esp. anti-queer hatred). She's a possum whose fursona is often a wolf or coyote or other wild dog of some sort.",
+            "links": {
+                "Twitter": {
+                    "status": "service-unavailable",
+                    "url": "https://twitter.com/LuzTheSnepGirl",
+                    "display": "@LuzTheSnepGirl"
+                }
+            },
+            "avatar": {
+                "url": "https://i.postimg.cc/nznkBdZD/Luz.jpg"
+            }
+        },
+        {
+            "uuid": "Z2YYeBgsQDmfwgfEbD+GfQ",
+            "name": "Kat",
+            "pronouns": ["she/it", "him (situational)"],
+            "kind": "alter",
+            "emoji": ["🤍", "🖤"],
+            "bio": "It's a caretaker. She's a hypersexual anthro herm jackalope naga. It's been in Our system since a sexual trauma incident in 2013.",
+            "quote": "I'm not bad; I was just drawn this way",
+            "links": {
+                "Twitter": {
+                    "status": "service-unavailable",
+                    "url": "https://twitter.com/LuzTheSnepGirl",
+                    "display": "@LuzTheSnepGirl"
+                }
+            },
+            "avatar": {
+                "url": "https://i.postimg.cc/W3V9SNmt/Kat.jpg"
+            }
+        },
+        {
+            "uuid": "r6+ww4HeRrSlObADkAH1YQ",
+            "name": "Elijah",
+            "pronouns": "him/them", "sexuality": "aro/ace",
+            "kind": "alter",
+            "emoji": ["🕊️", "💟"],
+            "bio": ["They's an angel and servant of the Abrahamic pantheon. He has a furred bipedal form with six wings.",
+                "They speaks formally and softly."],
+            "quote": "I love all equally",
+            "avatar": {
+                "url": "https://i.postimg.cc/wx0Wcd1T/Elijah.jpg"
+            }
+        },
+        {
+            "uuid": "aSN2cNmLT52dSZMnNpdHrA",
+            "name": "Dan",
+            "pronouns": "he/him",
+            "kind": "alter",
+            "emoji": ["👻", "🤍"],
+            "bio": ["An introject of Danny Fenton from the show Danny Phantom.",
+                "Joined the system in Aug/Sep 2023.",
+                "His sense of age is as if he was born in 1990."],
+            "quote": "Sometimes, you just gotta roll with the punches",
+            "links": {
+                "Twitter": {
+                    "status": "service-unavailable",
+                    "url": "https://twitter.com/LuzTheSnepGirl",
+                    "display": "@LuzTheSnepGirl"
+                }
+            },
+            "avatar": {
+                "url": "https://i.postimg.cc/VLmY2K0d/Dan.jpg"
+            }
+        },
+        
+        
+        
+        {
+            "uuid": "du3sAhlVSpmJYw5m808vAg",
+            "name": "Slade",
+            "pronouns": "it/its",
+            "kind": "fragment",
+            "emoji": ["🚗", "🐺"],
+            "bio": ["The chauffeur, Slade drives vehicles better than the rest of Us.",
+                "Formed from our hyperfocus & OCD.",
+                "Once handled driving, working, cooking, cleaning, thinking about a very engaging problem, etc., but recently specialized in driving.",
+                "Pre-integration, it could only front co-con."],
+            "avatar": {
+                "url": "https://i.postimg.cc/BbtjFN5S/Slade.jpg"
+            }
+        },
+        {
+            "uuid": "du3sAhlVSpmJYw5m808vAg",
+            "name": "Slack",
+            "pronouns": "it/its?",
+            "kind": "fragment",
+            "bio": "A chauffeur like Slade, but more laid-back and relaxed. A hedgehog",
+            "avatar": {
+                "url": "https://i.postimg.cc/CMvDKnCM/Slack.jpg"
+            }
+        },
+        {
+            "uuid": "du3sAhlVSpmJYw5m808vAg",
+            "name": "Oz", "full-name": "Oz Akezi, the Dreamweaver Nightguard",
+            "pronouns": "they/it",
+            "kind": "fragment",
+            "emoji": "💚",
+            "color": {
+                "primary": {
+                    "hex": "689F38"
+                }
+            },
+            "bio": ["Seems to have a hand in creating mundane dreams, like exploring a surreal version of our childhood home, or riding an infinite train, or using weird bathrooms.",
+                "Not nightmares, not metaphor dreams. We believe they exists to protect us from having nightmares in general"],
+            "avatar": {
+                "url": ""
+            }
+        },
+        {
+            "uuid": "t0qlDqwaTgaEC3DEDi8IBA",
+            "name": "Null",
+            "pronouns": "it/its",
+            "kind": "fragment",
+            "emoji": "✖️",
+            "bio": ["An android. The only one who cannot feel any emotions at all. Absorbs emotions from all other headmates.",
+                "Fronts only when nobody else can, in dire emergencies.",
+                "Unsure how integration affected it."],
+            "avatar": {
+                "url": "https://i.postimg.cc/hGqQYLns/Null.jpg"
+            }
+        },
+        {
+            "uuid": "khEyrRKpQ3m69BOqQ3MZAg",
+            "name": "Revue",
+            "pronouns": "it/its",
+            "kind": "fragment",
+            "emoji": "📙",
+            "color": {
+                "primary": {
+                    "hex": "FF5722"
+                }
+            },
+            "bio": ["Excels at keeping our information up to date and tidy. (hi! 👋🏽) It thinks of itself as a groundskeeper of our data.",
+                "It also currently acts as Our worker when writing software"],
+            "avatar": {
+                "url": ""
+            }
+        },
+        {
+            "uuid": "6YF5C5GDQjKlgq1sZx/Vrg",
+            "name": "Shadow",
+            "kind": "fragment",
+            "color": {
+                "primary": {
+                    "hex": "050607"
+                }
+            },
+            "bio": ["What a housecat sees itself as. Might exist just to help Us communicate with cats.",
+                "Feared being known. Seems shy and cute.",
+                "Unable to front; Might have an animal mind, not therean"],
+            "avatar": {
+                "url": ""
+            }
+        },
+        {
+            "uuid": "H1taymgLQ8qgaGL5IBrmZQ",
+            "name": "겥", "name-alt": "G8", "name-pronunciation": "Gate",
+            "kind": "fragment",
+            "pronouns": "it/she",
+            "emoji": "🎮",
+            "bio": ["It plays competitive video games.",
+                "She's a cat and an introject of D.va."],
+            "avatar": {
+                "url": "https://i.postimg.cc/jSNQ9VSf/G8.jpg"
+            }
+        },
+        {
+            "uuid": "eR+3g1TiStyU47jHj17pAw",
+            "name": "Taskrabbit",
+            "kind": "fragment",
+            "pronouns": "they? / he? / it?",
+            "emoji": "🛒",
+            "bio": ["A monkey! Capuchin?",
+                "Does the shopping for Us! Very efficient at it too."],
+            "avatar": {
+                "url": "https://i.postimg.cc/BQRBMZ4s/Taskrabbit.jpg"
+            }
+        },
+        {
+            "uuid": "Ndq2EXn9TQOi3ML+4MAc1A",
+            "name": "GG",
+            "kind": "fragment",
+            "pronouns": "he/him",
+            "color": {
+                "primary": {
+                    "hex": "A1887F"
+                }
+            },
+            "bio": "He's an introject of Our lifelong plushie. He hasn't fronted yet.",
+            "avatar": {
+                "url": ""
+            }
+        },
+        {
+            "uuid": "4ucp980XRYWlezdGKHMeew",
+            "name": "unnamed chef",
+            "kind": "fragment",
+            "bio": ["Very good at cooking."],
+            "avatar": {
+                "url": ""
+            }
+        },
+        
+        
+        
+        {
+            "uuid": "M1cCIARPTEO1Ir6gTZ8RUQ",
+            "name": "Polaris",
+            "pronouns": "they/them",
+            "kind": "whole system",
+            "emoji": ["✨", "💖"],
+            "bio": ["Omnigender, 9-tailed wolf, aetherially blue fur",
+                "A fusion of everyone in the  Northstar System all at once.",
+                "Rather rare. Insightful, but a bit chaotic"],
+            "avatar": {
+                "url": "https://i.postimg.cc/nrzGwCXV/Polaris.png"
+            }
+        },
+        
+        
+        
+        {
+            "uuid": "ss5DRUf/QBKSQt9Xa8e1rA",
+            "name": "Blaze",
+            "pronouns": "him/them",
+            "kind": "tulpa",
+            "emoji": ["🎵", "🤍"],
+            "bio": ["Brought into the body with tulpamancy in 2012 and dormant from 2014 through 2022, he is an introjected tulpa of Vinyl Scratch from FiM. He's a party pony to the core!",
+                "They's a member of the Harmony System, who share the same head as The Northstar System."],
+            "links": {
+                "Telegram": {
+                    "url": "https://t.me/BlazeWubsYou",
+                    "display": "@BlazeWubsYou"
+                }
+            },
+            "avatar": {
+                "url": "https://i.postimg.cc/hv51FcmL/Blaze.jpg"
+            },
+            "supersystem-id": "Hvw2M7/DQVCu4mHP5pzNEw"
+        },
+        {
+            "uuid": "YUIG6EvBQ3GzAlEvhR1YsA",
+            "name": "Aurora Flare",
+            "pronouns": "she/her",
+            "kind": "tulpa",
+            "emoji": ["🌩️"],
+            "bio": ["Created by [Blaze](#Blaze) via tulpamancy in 2024, she is an introjected tulpa of Rainbow Dash from FiM.",
+                "She's a member of the Harmony System, who share the same head as The Northstar System."],
+            "links": {
+                "Telegram": {
+                    "url": "https://t.me/BlazeWubsYou",
+                    "display": "@BlazeWubsYou"
+                }
+            },
+            "avatar": {
+                "url": "https://i.postimg.cc/Bnd7LcXT/Aurora-Flare.png"
+            },
+            "supersystem-id": "Hvw2M7/DQVCu4mHP5pzNEw"
+        }
+    ],
+    
+    
+    
+    "groups": [
+        {
+            "uuid": "zrbcSaxPS+y5kLFDFrEVcQ",
+            "name": "The Northstar✨ System",
+            "default": true
+        },
+        {
+            "uuid": "58Fk4/wUR6SgfhvloIquZA",
+            "name": "Alters",
+            "default": true,
+            "parent-group": "zrbcSaxPS+y5kLFDFrEVcQ"
+        },
+        {
+            "uuid": "XrIridLDRzGdY4ylvBKDpg",
+            "name": "Fragments",
+            "parent-group": "zrbcSaxPS+y5kLFDFrEVcQ",
+            "auto-grouping": {
+                "match-by": {
+                    "field": "kind",
+                    "contains": "fragment"
+                }
+            }
+        },
+        
+        
+        
+        {
+            "uuid": "Hvw2M7/DQVCu4mHP5pzNEw",
+            "name": "The Harmony System"
+        },
+        
+        
+        
+        {
+            "uuid": "qzcHlNMjTA+KRwp5qZGxIA",
+            "name": "Long-Term Visitors"
+        }
+    ]
+}

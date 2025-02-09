@@ -3,3 +3,10 @@
     --rainbow-background-stripe-thickness: 2in;
     --rainbow-background-stripe-angle: 120deg;
 }
+
+
+
+img[src=""] {
+    display: block;
+    background-color: var(--theme-background-color-at-level-3, magenta);
+}

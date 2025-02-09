@@ -1,0 +1,6 @@
+{%- assign user = include.user | default: include %}
+
+<address class="social user card">
+<h4 class="service-name">{{ user.service-name }}</h4>
+<a href="{{ user.href }}" target="_blank" class="username">{%- unless user.omit-at-sign-in-username -%} @ {%- endunless -%} {{ user.username }}</a>
+</address>

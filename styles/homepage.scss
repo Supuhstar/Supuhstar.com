@@ -17,10 +17,14 @@
     
     
     @at-root
-    .sidebar-shown.full-height-sidebar .app-bar {
-        .show-sidebar-button,
-        .back-to-root-link {
-            --light-theme-foreground-color: var(--light-theme-foreground-color--original) !important;
+    .brightness-light,
+    .brightness-white {
+        &.sidebar-shown.full-height-sidebar .app-bar {
+            .show-sidebar-button,
+            .back-to-root-link {
+                --light-theme-foreground-color: var(--light-theme-foreground-color--original) !important;
+                color: var(--theme-foreground-color);
+            }
         }
     }
 }
@@ -49,7 +53,7 @@ body {
 
     &,
     * {
-        color: var(--theme-foreground-color) !important;
+        color: var(--dark-theme-foreground-color);
     }
     
     

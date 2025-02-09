@@ -1,16 +1,20 @@
 ---
 layout: homepage
+
+emptyHeader: true
+html-classes: brightness-dark full-height-sidebar
+main-element-html-classes: full-viewport-size   flex-column flex-vert-space-around flex-horiz-center
+
+app-bar:
+    title: " "
+
 page-specific-stylesheets:
     - /styles/homepage.css
-html-classes: brightness-dark full-height-sidebar
-emptyHeader: true
 ---
 
-<article class="full-viewport-size   flex-column flex-vert-space-around flex-horiz-center">
-	<h1 id="brand-name" class="has-shadow-intro-animation">{{ site.brand.name }}</h1>
-	<ul id="portal-list" class="plain   flex-row flex-horiz-center flex-wrap   font-2x">
-        {%- for button in site.sidebar.defaultLinks %}
-        <li><a href="{{ button.url }}" class="big button display-inline-block">{{ button.text }}</a></li>
-        {%- endfor %}
-	</ul>
-</article>
+<h1 id="brand-name" class="has-shadow-intro-animation">{{ site.brand.name }}</h1>
+<ul id="portal-list" class="plain   flex-row flex-horiz-center flex-wrap   font-2x">
+    {%- for button in site.sidebar.defaultLinks %}
+    <li><a href="{{ button.url }}" class="big button display-inline-block">{{ button.text }}</a></li>
+    {%- endfor %}
+</ul>

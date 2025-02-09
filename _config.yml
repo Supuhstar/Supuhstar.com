@@ -7,7 +7,7 @@
 # Name of the site (displayed in the content)
 name: Northstar System
 # Name of the site (displayed in the tab)
-title: TODO
+title: Northstar System
 
 # Short bio or description (in share links)
 description: The Northstar System talk about their experiences in plurality
@@ -28,7 +28,7 @@ social:
 authors:
     -
         role: Primary
-        name: The Northstar System
+        name: The Northstar✨ System
         shortName: North
         tagline-html: 35+ Friends in one!
         avatar: https://www.gravatar.com/avatar/1ce4f883386943604d6e2f496f9d4d4122f690da?s=284px
@@ -77,9 +77,9 @@ sidebar:
 
 # This website URL
 # Used for Sitemap.xml and the RSS feed
-url: https://BHStudios.org
+url: https://Supuhstar.com
 source-code:
-    url: https://github.com/BlueHuskyStudios/BHStudios.org
+    url: https://github.com/Supuhstar/Supuhstar.com
 
 
 timezone: America/Denver
