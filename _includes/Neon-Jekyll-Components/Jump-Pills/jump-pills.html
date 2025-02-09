@@ -1,7 +1,0 @@
-<nav>
-    <ol class="plain-list   flex-row flex-wrap flex-horiz-space-around">
-        {%- for pill in include.pills %}
-        <li><a href="#{{ pill.id }}" class="button {%- if include.pillClasses %}   {{ include.pillClasses }} {%- endif -%}">{{ pill.title }}</a></li>
-        {%- endfor %}
-    </ol>
-</nav>

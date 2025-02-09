@@ -1,7 +1,0 @@
-
-<figure class="thumbnail-gallery   card {%- if include.raised %} raised {%- endif %}   {%- if include.float != blank %}   {{ include.float }} {%- endif %}">
-<a href="{{ include.full }}" target="_blank" class="thumbnail-full-image-link"><img src="{{ include.thumb | default: include.full }}" {%- if include.alt %} alt="{{ include.alt }}" {%- endif %} class="thumbnail {%- if include.small %} small {%- endif %}" /></a>
-{%- if include.caption %}
-<figcaption class="caption">{{ include.caption }}</figcaption>
-{%- endif %}
-</figure>
