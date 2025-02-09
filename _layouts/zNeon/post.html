@@ -1,57 +1,11 @@
 ---
-layout: default
+layout: general
 ---
 
 <article class="post">
 {{ content }}
 
-<footer class="card">
-    <ol class="chips   flex-row flex-wrap flex-horiz-center flex-vert-center">
-        {% for tag in page.categories %}
-        <li><span class="chip" data-tag-name="{{ tag }}">{{ tag }}</span></li>
-        {% endfor %}
-    </ol>
 
-    <ol class="plain dates-and-times">
-        <li>
-            <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
-                {% if page.date or page.date %}Originally posted{% else %}Posted{% endif %} {{ page.date | date: "%F (a %A) at %R %Z" }}
-            </time>
-        </li>
-        {% if page.date-migrated %}
-        <li>
-            <time class="date" datetime="{{ page.date-migrated | date_to_xmlschema }}">
-                Migrated {{ page.date-migrated | date: "%F (a %A) at %R %Z" }}
-            </time>
-        </li>
-        {% endif %}
-        {% if page.date-modified %}
-        <li>
-            <time class="date" datetime="{{ page.date-modified | date_to_xmlschema }}">
-                Updated {{ page.date-modified | date: "%F (a %A) at %R %Z" }}
-            </time>
-        </li>
-        {% endif %}
-    </ol>
 
-    <footer class="oss-links">
-        {% if page.original-url %}
-        <a href="{{ page.original-url }}" title="View Original" target="_blank" class="small material-icons button">import_contacts</a>
-        {% endif %}
-        {% if site.source-code.url %}
-        {% case site.source-code.service %}
-            {% when "GitHub" %}
-                <a href="{{ site.source-code.url }}/commits/master/{{ page.path }}" title="Post History" target="_blank" class="low-emphasis button"><i class="material-icons">history</i> <span>History</span></a>
-                <a href="{{ site.source-code.url }}/edit/master/{{ page.path }}" title="Suggest an Edit" target="_blank" class="low-emphasis button"><i class="material-icons">edit</i> <span>Suggest an Edit</span></a>
-
-            {% else %}
-                <!--
-                This version of Neon Jekyll Layouts doesn't support {{ site.source-code.service }} repos.
-                If you're on the latest version and nobody's reported this yet, you can request it here:
-                https://github.com/BlueHuskyStudios/Neon-Jekyll-Layouts/issues
-                -->
-        {% endcase %}
-        {% endif %}
-    </footer>
-</footer>
+{% include Neon-Jekyll-Components/Page-Info/footer-card.html %}
 </article>

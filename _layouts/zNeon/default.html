@@ -9,6 +9,8 @@ Also, this requires the following to be used as a submodules in this repo:
 - https://github.com/BlueHuskyStudios/Neon-Jekyll-Components  -  `_includes/Neon-Jekyll-Components`
 
 {%- endcomment -%}
+
+
 {%- if page.app-bar.trailing-control.target -%}
     {%- case page.app-bar.trailing-control.target -%}
         {%- when 'github' -%}
@@ -71,7 +73,11 @@ wrote the original 😉
 
 -->
 <!DOCTYPE html>
-<html class="brightness-dark{%- if page.html-classes %} {{ page.html-classes }} {%- endif -%}">
+<html class="
+{{- site.default-theme.brightness | default: 'brightness-dark' -}}
+{%- if page.html-classes %} {{ page.html-classes }} {%- endif -%}
+{%- if app-bar-position %} app-bar-position-{{ app-bar-position }} {%- endif -%}
+">
 <head>
 {% include Neon-Jekyll-Basics/header-meta.html %}
 

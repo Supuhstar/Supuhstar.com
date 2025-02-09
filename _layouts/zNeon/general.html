@@ -2,49 +2,44 @@
 layout: default
 ---
 
-{%- unless page.app-bar.remove or site.app-bar.remove -%}
-{%- assign app-bar-title = page.app-bar.title | default: page.title | default: site.name -%}
-{%- assign app-bar-subtitle = page.app-bar.subtitle | default: page.subtitle -%}
-{%- include Neon-Jekyll-Components/App-Bar/app-bar.html
-    title=app-bar-title
-    subtitle=app-bar-subtitle
--%}
-{%- endunless -%}
+{%- assign app-bar-position = page.app-bar.position | default: site.app-bar.position | default: layout.app-bar.position -%}
 
-{%- if page.hero -%}
-{%- include Neon-Jekyll-Components/Hero/hero.html
-    class=page.hero.class
-    text=page.hero.text -%}
-{% endif -%}
+{%- assign exclude-main-element = layout.exclude-main-element | default: page.exclude-main-element %}
 
-
-
-<main id="main" role="main" class="container {{ page.main-element-html-classes }}">
+{%- capture wrapped-content %}
+{%- if exclude-main-element %}
+{{ content }}
+{%- else %}
+<main id="main" role="main" class="container">
 {{ content }}
 </main>
+{%- endif %}
+{%- endcapture %}
+
+{%- if app-bar-position == "bottom" -%}
+{{ wrapped-content }}
 
 
 
-<footer class="centered  widest-desktop-small">
-    <section class="show-print text-centered">
-        {{ site.url }}{{ page.url }}
-    </section>
-
-    {%- if page.date-modified or page.date %}
-
-    <aside class="text-center">
-        {%- if page.date-modified %}
-        Last tweaked <time datetime="{{ page.date-modified | date_to_xmlschema }}">{{ page.date-modified | date: "%F (a %A) at %R %Z" }}</time>
-        {%- endif %}
-        {%- if page.date %}
-        Created <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%F (a %A) at %R %Z" }}</time>
-        {%- endif %}
-    </aside>
-    {%- endif %}
-</footer>
+{%- endif %}
 
 
 
-{% include Neon-Jekyll-Components/Sidebar/sidebar.html %}
-</body>
-</html>
+{%- unless page.app-bar.remove or site.app-bar.remove or layout.app-bar.remove -%}
+    {%- assign app-bar-title = page.app-bar.title | default: site.name | default: layout.app-bar.title -%}
+    {%- assign app-bar-subtitle = page.app-bar.subtitle | default: page.subtitle | default: layout.app-bar.subtitle -%}
+
+    {%- include Neon-Jekyll-Components/App-Bar/app-bar.html
+        title=app-bar-title
+        subtitle=app-bar-subtitle
+    -%}
+{%- endunless -%}
+
+
+
+{%- unless app-bar-position == "bottom" %}
+
+
+
+{{ wrapped-content }}
+{%- endunless -%}
