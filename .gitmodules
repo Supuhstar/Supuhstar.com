@@ -7,3 +7,6 @@
 [submodule "_includes/Neon-Jekyll-Components"]
 	path = _includes/Neon-Jekyll-Components
 	url = https://github.com/BlueHuskyStudios/Neon-Jekyll-Components.git
+[submodule "_sass/import-once"]
+	path = _sass/import-once
+	url = https://github.com/wilsonpage/sass-import-once.git
