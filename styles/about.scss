@@ -1,6 +1,13 @@
 ---
 ---
 
+.hero {
+    *:not(:first-child) {
+        margin-top: 2em;
+    }
+}
+
+
 .social {
     &.card {
         .service-name {
@@ -9,4 +16,3 @@
         }
     }
 }
-

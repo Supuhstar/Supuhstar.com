@@ -1,0 +1,36 @@
+---
+layout: page
+---
+
+{%- if site.author -%}
+    {%- assign primaryAuthor = site.author -%}
+{%- elsif site.authors -%}
+    {%- for author in site.authors -%}
+        {%- if author.role == "Primary" -%}
+            {%- assign primaryAuthor = author -%}
+            {%- break -%}
+        {%- endif -%}
+    {%- endfor -%}
+    
+    {%- unless primaryAuthor -%}
+        {%- assign primaryAuthor = site.authors[0] -%}
+    {%- endunless -%}
+{%- endif -%}
+
+
+{%- if primaryAuthor %}
+
+<figure class="hero flex-column">
+    {%- if primaryAuthor.avatar %}
+    <img src="{{ primaryAuthor.avatar }}" class="avatar" />
+    {%- endif %}
+
+    <figcaption class="caption">
+        {% if primaryAuthor.plurality == "Plural" -%} We are {%- else -%} I am {%- endif %} {{ primaryAuthor.name }} {%- if primaryAuthor.tagline-html %}, {{ primaryAuthor.tagline-html }} {%- endif -%}!
+    </figcaption>
+</figure>
+{%- endif %}
+
+<hr/>
+
+{{ content }}

@@ -1,6 +1,6 @@
 
 
-@import "decorations";
+@import_once "decorations";
 @import "typography";
 
 
@@ -25,9 +25,17 @@
     max-width: var(--desktop-medium-min-width);
 }
 
-
-.sidebar {
-    .avatar {
+.avatar {
+    border-radius: 99in;
+    max-width: 100%;
+    
+    .sidebar & {
         height: 4cm;
     }
+}
+
+
+
+hr {
+    margin: 1cm 20%;
 }

@@ -31,8 +31,10 @@ authors:
         name: The Northstar✨ System
         shortName: North
         tagline-html: 35+ Friends in one!
-        avatar: https://www.gravatar.com/avatar/1ce4f883386943604d6e2f496f9d4d4122f690da?s=284px
-
+        avatar: https://gravatar.com/avatar/ce22034b5c562ac32304f60c3e86a7c5?size=512
+        
+        plurality: Plural
+        
         social:
             blog: https://TODO-unnamed-blog.Supuhstar.com
             email: Northstar@Supuhstar.com
@@ -64,6 +66,10 @@ sidebar:
                 - /images/Northstar System Brand Header • Full Bleed (16-9) @486p.webp
                 - /images/Northstar System Brand Header • Full Bleed (16-9) @486p.jpg
             alt: "Northstar System"
+    
+    aboutLink:
+        label: About & Contact
+    
     defaultLinks:
         -
             url: /Headmates
@@ -71,9 +77,12 @@ sidebar:
         -
             url: /Blog
             text: Blog
-        -
-            url: /Contact
-            text: Contact
+
+
+pages:
+    about: "Contact"
+
+
 
 # This website URL
 # Used for Sitemap.xml and the RSS feed

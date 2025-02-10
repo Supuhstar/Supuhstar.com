@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: about
 title: Contact
 app-bar:
     title: DMs open!
 
 
 page-specific-stylesheets:
-    - /styles/contact.css
+    - /styles/about.css
 ---
 
 
@@ -17,7 +17,7 @@ Generally, you can find Us as **{{ site.social.default-username }}** in most pla
 
 
 
-<section class="contact-cards   flex-row flex-wrap">
+<section class="contact-cards   flex-row flex-wrap flex-horiz-center">
 {%- if site.social.bsky %}
 
 {%- assign bskyHref = "https://bsky.app/profile/" | append: site.social.bsky %}

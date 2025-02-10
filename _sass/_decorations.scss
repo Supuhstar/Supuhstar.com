@@ -10,3 +10,17 @@ img[src=""] {
     display: block;
     background-color: var(--theme-background-color-at-level-3, magenta);
 }
+
+
+
+.hero {
+    background-image: url("/images/heroBackground.webp");
+    
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    border-radius: 1em;
+    color: var(--dark-theme-foreground-color);
+}
