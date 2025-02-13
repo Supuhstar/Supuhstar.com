@@ -17,6 +17,12 @@ brand:
     name: The Northstar✨ System
     color:
         primary: "#1E007C"
+    logo:
+        monochrome:
+            darkMode:
+                - /images/Northstar-System-logo.2.0.0.monochrome.transparent.dark-mode.svg
+                - /images/Northstar-System-logo.2.0.0.monochrome.transparent.dark-mode.webp
+                - /images/Northstar-System-logo.2.0.0.monochrome.transparent.dark-mode.png
 
 social:
     default-username: Supuhstar
@@ -75,9 +81,9 @@ sidebar:
         -
             url: /Headmates
             text: Headmates list
-        -
-            url: /Blog
-            text: Blog
+        # -
+        #     url: https://Blog.Supuhstar.com
+        #     text: Blog
 
 
 commonPages:

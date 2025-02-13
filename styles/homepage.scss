@@ -34,9 +34,29 @@
 :root {
     background-color: var(--theme-background-color);
     background-image: url("/images/heroBackground.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 
+
+.avatar {
+    --avatar-side-lwngth: calc(min(4in, 50%));
+    
+    position: fixed;
+    top: calc(50vh - (var(--avatar-side-lwngth) / 2));
+    left: calc(50vw - (var(--avatar-side-lwngth) / 2));
+    
+    width: var(--avatar-side-lwngth);
+    height: var(--avatar-side-lwngth);
+    
+    opacity: 25%;
+}
+
+
+
+// MARK: - Elements
 
 body {
     // Get rid of the overscroll on homepage
@@ -44,6 +64,14 @@ body {
 }
 
 
+main {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+// MARK: Framework -components
 
 .app-bar {
     background: 0;
@@ -86,6 +114,8 @@ svg g[fill="#fff"] {
 
 
 
+// MARK: - IDs
+
 #homepage-background {
     position: fixed;
     z-index: 2;
@@ -118,7 +148,7 @@ svg g[fill="#fff"] {
 
 
 #brand-name {
-    font-size: 11vh;
+    font-size: 9vh;
     text-align: center;
     padding: var(--app-bar-height-auto) 0.5ex 0.5ex;
     position: static;
