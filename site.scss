@@ -10,3 +10,9 @@
 
     --brand-color-primary-dark: {{ site.brand.primary-color-dark | default: "#1E007C" }};
 }
+
+
+
+main {
+    transform: none;
+}

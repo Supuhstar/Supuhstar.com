@@ -447,7 +447,7 @@ He speaks with a slight southern USA accent."],
                 "Once handled driving, working, cooking, cleaning, thinking about a very engaging problem, etc., but recently specialized in driving.",
                 "Pre-integration, it could only front co-con."],
             "avatar": {
-                "url": "https://i.postimg.cc/BbtjFN5S/Slade.jpg"
+                "url": "https://i.postimg.cc/wjwG4CxH/Slade.jpg"
             }
         },
         {
@@ -476,6 +476,12 @@ He speaks with a slight southern USA accent."],
             "avatar": {
                 "url": ""
             }
+        },
+        {
+            "uuid": "0cUy+L+cQLydcFzytuLUDA",
+            "name": "Phoenix",
+            "kind": "fragment",
+            "bio": ["A Dreamweaver who is a red & gold anthro phoenix. We don't know much else"]
         },
         {
             "uuid": "t0qlDqwaTgaEC3DEDi8IBA",
@@ -570,6 +576,12 @@ He speaks with a slight southern USA accent."],
             "avatar": {
                 "url": ""
             }
+        },
+        {
+            "uuid": "OGslL/OiTtSgLGzX63IBXA",
+            "name": "unnamed serpentine headmate",
+            "kind": "unknown",
+            "bio": "A serpentine person with black, white, and blue markings. We don't know much else"
         },
         
         

@@ -42,10 +42,11 @@ authors:
                 this: Supuhstar/Supuhstar.com
                 personal: Supuhstar
             mastodon:
-                instance: plural.cafe
-                username: Ky
+                instance: mastodon.social
+                username: Supuhstar
             bsky: Supuhstar.com
             website: https://Supuhstar.com
+            tumblr: Supuhstar
 
 dates:
     launch: 2025-01-14
@@ -79,8 +80,8 @@ sidebar:
             text: Blog
 
 
-pages:
-    about: "Contact"
+commonPages:
+    about: Contact
 
 
 

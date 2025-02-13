@@ -5,6 +5,11 @@
     *:not(:first-child) {
         margin-top: 2em;
     }
+    
+    .avatar {
+        max-width: 4in;
+        max-width: calc(min(100%, 4in));
+    }
 }
 
 
