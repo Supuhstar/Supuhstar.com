@@ -259,7 +259,8 @@ He speaks with a slight southern USA accent."],
                 "The host of Our system. A protogen kobold!"],
             "avatar": {
                 "url": "https://i.postimg.cc/25QGqppY/Kymera.png"
-            }
+            },
+            "group-id": "58Fk4/wUR6SgfhvloIquZA"
         },
         
         
@@ -291,7 +292,8 @@ He speaks with a slight southern USA accent."],
                     "partially": true,
                     "generator": "indigoFurryMix 4.0"
                 }
-            }
+            },
+            "group-id": "58Fk4/wUR6SgfhvloIquZA"
         },
         {
             "uuid": "FafoD1NxRfWHVDlw3bKrzA",
@@ -302,7 +304,8 @@ He speaks with a slight southern USA accent."],
             "bio": "He’s [Joel](#Joel)’s kobold. Soft scotchirish accent",
             "avatar": {
                 "url": "https://i.postimg.cc/fLN7x4kw/Kobalt.jpg"
-            }
+            },
+            "group-id": "58Fk4/wUR6SgfhvloIquZA"
         },
         {
             "uuid": "BiPGdG1vQa6AOyOYtqT6BA",
@@ -318,7 +321,8 @@ He speaks with a slight southern USA accent."],
                     "partially": true,
                     "generator": "indigoFurryMix 4.0"
                 }
-            }
+            },
+            "group-id": "58Fk4/wUR6SgfhvloIquZA"
         },
         {
             "uuid": "QFwX/2pWTTi2iMw26ArL3g",
@@ -331,7 +335,8 @@ He speaks with a slight southern USA accent."],
             "quote": "Don't let your life end without exploring yourself",
             "avatar": {
                 "url": "https://i.postimg.cc/G37QTJf4/Aaorl.jpg"
-            }
+            },
+            "group-id": "58Fk4/wUR6SgfhvloIquZA"
         },
         {
             "uuid": "/e/fwvwJRg+0k//Pd9QWPw",
@@ -360,7 +365,8 @@ He speaks with a slight southern USA accent."],
                     "display": "Hecate Nocturne",
                     "url": "https://t.me/HecateNocturne"
                 }
-            }
+            },
+            "group-id": "58Fk4/wUR6SgfhvloIquZA"
         },
         {
             "uuid": "9fA+WIqOQdWeVI7jc1SrXg",
@@ -378,7 +384,8 @@ He speaks with a slight southern USA accent."],
             },
             "avatar": {
                 "url": "https://i.postimg.cc/nznkBdZD/Luz.jpg"
-            }
+            },
+            "group-id": "58Fk4/wUR6SgfhvloIquZA"
         },
         {
             "uuid": "Z2YYeBgsQDmfwgfEbD+GfQ",
@@ -397,7 +404,8 @@ He speaks with a slight southern USA accent."],
             },
             "avatar": {
                 "url": "https://i.postimg.cc/W3V9SNmt/Kat.jpg"
-            }
+            },
+            "group-id": "58Fk4/wUR6SgfhvloIquZA"
         },
         {
             "uuid": "r6+ww4HeRrSlObADkAH1YQ",
@@ -410,7 +418,8 @@ He speaks with a slight southern USA accent."],
             "quote": "I love all equally",
             "avatar": {
                 "url": "https://i.postimg.cc/wx0Wcd1T/Elijah.jpg"
-            }
+            },
+            "group-id": "58Fk4/wUR6SgfhvloIquZA"
         },
         {
             "uuid": "aSN2cNmLT52dSZMnNpdHrA",
@@ -431,7 +440,27 @@ He speaks with a slight southern USA accent."],
             },
             "avatar": {
                 "url": "https://i.postimg.cc/VLmY2K0d/Dan.jpg"
-            }
+            },
+            "group-id": "58Fk4/wUR6SgfhvloIquZA"
+        },
+        {
+            "uuid": "6YF5C5GDQjKlgq1sZx/Vrg",
+            "name": "Shadow",
+            "pronouns": "they/it/xem/em. Anything not binary tbh",
+            "emoji": ["🐈‍⬛","🖤"],
+            "kind": "alter",
+            "color": {
+                "primary": {
+                    "hex": "050607"
+                }
+            },
+            "bio": [
+                "They's a therian black housecat! It first fronted 2025-02-16.",
+                "First joined the system just to help Us communicate with cats."],
+            "avatar": {
+                "url": ""
+            },
+            "group-id": "58Fk4/wUR6SgfhvloIquZA"
         },
         
         
@@ -448,7 +477,8 @@ He speaks with a slight southern USA accent."],
                 "Pre-integration, it could only front co-con."],
             "avatar": {
                 "url": "https://i.postimg.cc/wjwG4CxH/Slade.jpg"
-            }
+            },
+            "group-id": "XrIridLDRzGdY4ylvBKDpg"
         },
         {
             "uuid": "du3sAhlVSpmJYw5m808vAg",
@@ -458,7 +488,8 @@ He speaks with a slight southern USA accent."],
             "bio": "A chauffeur like Slade, but more laid-back and relaxed. A hedgehog",
             "avatar": {
                 "url": "https://i.postimg.cc/CMvDKnCM/Slack.jpg"
-            }
+            },
+            "group-id": "XrIridLDRzGdY4ylvBKDpg"
         },
         {
             "uuid": "du3sAhlVSpmJYw5m808vAg",
@@ -475,13 +506,15 @@ He speaks with a slight southern USA accent."],
                 "Not nightmares, not metaphor dreams. We believe they exists to protect us from having nightmares in general"],
             "avatar": {
                 "url": ""
-            }
+            },
+            "group-id": "XrIridLDRzGdY4ylvBKDpg"
         },
         {
             "uuid": "0cUy+L+cQLydcFzytuLUDA",
             "name": "Phoenix",
             "kind": "fragment",
-            "bio": ["A Dreamweaver who is a red & gold anthro phoenix. We don't know much else"]
+            "bio": ["A Dreamweaver who is a red & gold anthro phoenix. We don't know much else"],
+            "group-id": "XrIridLDRzGdY4ylvBKDpg"
         },
         {
             "uuid": "t0qlDqwaTgaEC3DEDi8IBA",
@@ -494,7 +527,8 @@ He speaks with a slight southern USA accent."],
                 "Unsure how integration affected it."],
             "avatar": {
                 "url": "https://i.postimg.cc/hGqQYLns/Null.jpg"
-            }
+            },
+            "group-id": "XrIridLDRzGdY4ylvBKDpg"
         },
         {
             "uuid": "khEyrRKpQ3m69BOqQ3MZAg",
@@ -511,23 +545,8 @@ He speaks with a slight southern USA accent."],
                 "It also currently acts as Our worker when writing software"],
             "avatar": {
                 "url": ""
-            }
-        },
-        {
-            "uuid": "6YF5C5GDQjKlgq1sZx/Vrg",
-            "name": "Shadow",
-            "kind": "fragment",
-            "color": {
-                "primary": {
-                    "hex": "050607"
-                }
             },
-            "bio": ["What a housecat sees itself as. Might exist just to help Us communicate with cats.",
-                "Feared being known. Seems shy and cute.",
-                "Unable to front; Might have an animal mind, not therean"],
-            "avatar": {
-                "url": ""
-            }
+            "group-id": "XrIridLDRzGdY4ylvBKDpg"
         },
         {
             "uuid": "H1taymgLQ8qgaGL5IBrmZQ",
@@ -539,7 +558,8 @@ He speaks with a slight southern USA accent."],
                 "She's a cat and an introject of D.va."],
             "avatar": {
                 "url": "https://i.postimg.cc/jSNQ9VSf/G8.jpg"
-            }
+            },
+            "group-id": "XrIridLDRzGdY4ylvBKDpg"
         },
         {
             "uuid": "eR+3g1TiStyU47jHj17pAw",
@@ -551,7 +571,8 @@ He speaks with a slight southern USA accent."],
                 "Does the shopping for Us! Very efficient at it too."],
             "avatar": {
                 "url": "https://i.postimg.cc/BQRBMZ4s/Taskrabbit.jpg"
-            }
+            },
+            "group-id": "XrIridLDRzGdY4ylvBKDpg"
         },
         {
             "uuid": "Ndq2EXn9TQOi3ML+4MAc1A",
@@ -566,7 +587,8 @@ He speaks with a slight southern USA accent."],
             "bio": "He's an introject of Our lifelong plushie. He hasn't fronted yet.",
             "avatar": {
                 "url": ""
-            }
+            },
+            "group-id": "XrIridLDRzGdY4ylvBKDpg"
         },
         {
             "uuid": "4ucp980XRYWlezdGKHMeew",
@@ -575,13 +597,15 @@ He speaks with a slight southern USA accent."],
             "bio": ["Very good at cooking."],
             "avatar": {
                 "url": ""
-            }
+            },
+            "group-id": "XrIridLDRzGdY4ylvBKDpg"
         },
         {
             "uuid": "OGslL/OiTtSgLGzX63IBXA",
             "name": "unnamed serpentine headmate",
             "kind": "unknown",
-            "bio": "A serpentine person with black, white, and blue markings. We don't know much else"
+            "bio": "A serpentine person with black, white, and blue markings. We don't know much else",
+            "group-id": "XrIridLDRzGdY4ylvBKDpg"
         },
         
         
@@ -639,6 +663,38 @@ He speaks with a slight southern USA accent."],
                 "url": "https://i.postimg.cc/Bnd7LcXT/Aurora-Flare.png"
             },
             "supersystem-id": "Hvw2M7/DQVCu4mHP5pzNEw"
+        },
+        
+        
+        
+        {
+            "uuid": "2JonfMalQzuYFCi9i/8uUQ",
+            "name": "Ilirah",
+            "pronouns": ["ai’re/ai’rel/ai’et/ai’rrem/ai’rema", "they/them in a plural way"],
+            "kind": "visitor",
+            "emoji": "💟🖤",
+            "bio": ["A timeherd.",
+                "A combination of fragments of future versions of the angel [Elijah](#Elijah) of the Northstar System and the succubus demon **Inara** of the Alastor System.",
+                "Behavior shifts between the two.",
+                "Ai’re don’t consider ai’rema part of a system in this head; ai’re see ai’rema as visiting the vessel to be a guide"],
+            "avatar": {
+                "url": "https://i.postimg.cc/ZqByjYy3/Ilirah.jpg"
+            },
+            "supersystem-id": "qzcHlNMjTA+KRwp5qZGxIA"
+        },
+        {
+            "uuid": "CurCdRbUTZeE1NiWtpLXeg",
+            "name": "Hope",
+            "pronouns": ["she/her", "it/its like a car"],
+            "kind": "visitor",
+            "emoji": ["🩶", "🚗"],
+            "bio": ["She's a driver like [Slade](#Slade) and [Slack](#Slack), and also a mechanic.",
+                "It's the soul who once inhabited Our car, Hope.",
+                "She's an automorph, meaning she's anthropomorphic with features of her car body."],
+            "avatar": {
+                "url": "https://i.postimg.cc/VNx0hyjh/Hope.jpg"
+            },
+            "supersystem-id": "qzcHlNMjTA+KRwp5qZGxIA"
         }
     ],
     
@@ -648,13 +704,32 @@ He speaks with a slight southern USA accent."],
         {
             "uuid": "zrbcSaxPS+y5kLFDFrEVcQ",
             "name": "The Northstar✨ System",
-            "default": true
+            "default": true,
+            "description-markdown": "The primary system in Our head, the one which started as a child with DID"
+        },
+        {
+            "uuid": "qCKQ+/dNSzWoe/VA9jokmQ",
+            "name": "Arx",
+            "parent-group": "aHAMEKIHRwC18C0BmGYBEw",
+            "description-markdown": [
+                "The core host subsystem. Each member of this subsystem is equally a core host of the system.",
+                 "When they all fuse together, they become [Arc](#Arc)"]
+        },
+        {
+            "uuid": "aHAMEKIHRwC18C0BmGYBEw",
+            "name": "Klones",
+            "parent-group": "58Fk4/wUR6SgfhvloIquZA",
+            "description-markdown": [
+                "The host subsystem. Each member of this subsystem is a host of the system, though many have retired from that role.",
+                "When they all fuse together, they become [Kymera](#Kymera)"]
         },
         {
             "uuid": "58Fk4/wUR6SgfhvloIquZA",
             "name": "Alters",
-            "default": true,
-            "parent-group": "zrbcSaxPS+y5kLFDFrEVcQ"
+            "parent-group": "zrbcSaxPS+y5kLFDFrEVcQ",
+            "description-markdown": [
+                "Often referred to as the “Mailine Alters” or “Primary Alters”, these are the alters of the system who aren't in any subsystem.",
+                "When they all fuse together, they become [Polaris](#Polaris)"]
         },
         {
             "uuid": "XrIridLDRzGdY4ylvBKDpg",
@@ -665,21 +740,34 @@ He speaks with a slight southern USA accent."],
                     "field": "kind",
                     "contains": "fragment"
                 }
-            }
+            },
+            "description-markdown": [
+                "Permanent headmates with very specialized skills & purposes.",
+                "Many of them see themselves as not being complete people, and having specific utility purposes, to be used for those purposes."]
         },
         
         
         
         {
             "uuid": "Hvw2M7/DQVCu4mHP5pzNEw",
-            "name": "The Harmony System"
+            "name": "The Harmony System",
+            "description-markdown": [
+                "A plural system of MLP:FiM tulpa introjects sharing the same head as the Northstar System, but seprate from Northstar.",
+                "[Blaze](#Blaze) built memory barriers and other such separators to make this system separate."]
         },
         
         
         
         {
             "uuid": "qzcHlNMjTA+KRwp5qZGxIA",
-            "name": "Long-Term Visitors"
+            "name": "Long-Term Visitors",
+            "description-markdown": "Folks who currently reside in this head, but aren't a member of any of its systems. They're from somewhere else, and intend to leave at some point.",
+            "auto-grouping": {
+                "match-by": {
+                    "field": "kind",
+                    "contains": "visitor"
+                }
+            }
         }
     ]
 }
