@@ -96,6 +96,12 @@ commonPages:
 url: https://Supuhstar.com
 source-code:
     url: https://github.com/Supuhstar/Supuhstar.com
+    productionBranchName: production
+    issuesSubpath: issues/new
+    eachPage:
+        historySubpathPrefix: commits
+        editSubpathPrefix: edit
+    
 
 
 timezone: America/Denver
