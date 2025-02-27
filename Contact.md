@@ -5,6 +5,13 @@ app-bar:
     title: DMs open!
 excludeAutoH1: true
 
+redirect-from:
+    - about
+    - About
+    - contact
+    - faq
+    - FAQ
+
 page-specific-stylesheets:
     - /styles/about.css
 ---
@@ -38,7 +45,7 @@ You can collectively refer to Us in 3rd-person as **e/er/ers/em/emself or they/t
 
 Most of Us are Anarcho-Christian. [Elijah](/Headmates#Elijah) & [Mendo](/Headmates#Mendo) consider themselves to be direct Servants of God.
 
-Most of Us also practive & believe in a mysticism which has no name (it's a spirituality specific to Ourself, similar to Animism, Tai Chi, Buddhism...).
+Most of Us also practice & believe in a mysticism which has no name (it's a spirituality specific to Ourself, similar to Animism, Tai Chi, Buddhism...).
 
 A few of Us are also Wiccan.
 
@@ -75,6 +82,20 @@ Generally, you can find Us as **{{ site.social.default-username }}** in most pla
     service-name="Telegram"
     username=site.social.telegram
     href=tgHref
+%}
+{%- endif %}
+
+
+
+{%- if site.social.mastodon %}
+
+{%- assign mastodonHref = "https://" | append: site.social.mastodon.instance | append: "/@" | append: site.social.mastodon.username %}
+{%- assign mastodonUsername = site.social.mastodon.username | append: "@" | append: site.social.mastodon.instance %}
+
+{% include social/user-card.html
+    service-name="Mastodon"
+    username=mastodonUsername
+    href=mastodonHref
 %}
 {%- endif %}
 

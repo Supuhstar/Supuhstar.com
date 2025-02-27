@@ -30,29 +30,28 @@ social:
     github: Supuhstar/Supuhstar.com
     bsky: Supuhstar.com
     telegram: Supuhstar
+    mastodon:
+        instance: mastodon.social
+        username: Supuhstar
+    tumblr: Supuhstar
 
 authors:
     -
         role: Primary
         name: The Northstar✨ System
         shortName: North
-        tagline-html: 35+ Friends in one!
+        tagline-html: Many friends in one!
         avatar: https://gravatar.com/avatar/ce22034b5c562ac32304f60c3e86a7c5?size=512
         
         plurality: Plural
         
         social:
             blog: https://TODO-unnamed-blog.Supuhstar.com
-            email: Northstar@Supuhstar.com
+            email: North@Supuhstar.com
             github-suffix:
                 this: Supuhstar/Supuhstar.com
                 personal: Supuhstar
-            mastodon:
-                instance: mastodon.social
-                username: Supuhstar
-            bsky: Supuhstar.com
             website: https://Supuhstar.com
-            tumblr: Supuhstar
 
 dates:
     launch: 2025-01-14

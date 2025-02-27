@@ -231,15 +231,8 @@
             "kind": "alter",
             "emoji": "🩵",
             "bio": [
-                "He’s a Charizard, whose coloring is white, blue, and black.
-He speaks with a slight southern USA accent."],
-            "links": {
-                "Twitter": {
-                    "status": "service-unavailable",
-                    "url": "https://twitter.com/Unspoken_Thread",
-                    "display": "@Unspoken_Thread"
-                }
-            },
+                "He’s a Charizard, whose coloring is white, blue, and black.",
+                "He speaks with a slight southern USA accent."],
             "avatar": {
                 "url": "https://i.postimg.cc/8Pz0qz26/Charcole.jpg",
                 "generated": {
