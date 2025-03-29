@@ -497,7 +497,11 @@
             "bio": ["Seems to have a hand in creating mundane dreams, like exploring a surreal version of our childhood home, or riding an infinite train, or using weird bathrooms.",
                 "Not nightmares, not metaphor dreams. We believe they exists to protect us from having nightmares in general"],
             "avatar": {
-                "url": ""
+                "url": "https://i.postimg.cc/zffVstTd/Oz.avif",
+                "generated": {
+                    "partially": true,
+                    "generator": "indigoFurryMix 4.0"
+                }
             },
             "group-id": "XrIridLDRzGdY4ylvBKDpg"
         },
