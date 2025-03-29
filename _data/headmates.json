@@ -625,7 +625,7 @@
             "kind": "tulpa",
             "emoji": ["🎵", "🤍"],
             "bio": ["Brought into the body with tulpamancy in 2012 and dormant from 2014 through 2022, he is an introjected tulpa of Vinyl Scratch from FiM. He's a party pony to the core!",
-                "They's a member of the Harmony System, who share the same head as The Northstar System."],
+                "They's a member of the Harmonic System, who share the same head as The Northstar System."],
             "links": {
                 "Telegram": {
                     "url": "https://t.me/BlazeWubsYou",
@@ -642,9 +642,9 @@
             "name": "Aurora Flare",
             "pronouns": "she/her",
             "kind": "tulpa",
-            "emoji": ["🌩️"],
+            "emoji": ["🌩️", "🌈"],
             "bio": ["Created by [Blaze](#Blaze) via tulpamancy in 2024, she is an introjected tulpa of Rainbow Dash from FiM.",
-                "She's a member of the Harmony System, who share the same head as The Northstar System."],
+                "She's a member of the Harmonic System, who share the same head as The Northstar System."],
             "links": {
                 "Telegram": {
                     "url": "https://t.me/BlazeWubsYou",
@@ -742,7 +742,7 @@
         
         {
             "uuid": "Hvw2M7/DQVCu4mHP5pzNEw",
-            "name": "The Harmony System",
+            "name": "The Harmonic System",
             "description-markdown": [
                 "A plural system of MLP:FiM tulpa introjects sharing the same head as the Northstar System, but seprate from Northstar.",
                 "[Blaze](#Blaze) built memory barriers and other such separators to make this system separate."]
