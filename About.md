@@ -7,8 +7,8 @@ excludeAutoH1: true
 
 redirect-from:
     - about
-    - About
     - contact
+    - Contact
     - faq
     - FAQ
 

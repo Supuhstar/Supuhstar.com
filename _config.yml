@@ -110,7 +110,8 @@ timezone: America/Denver
 # Low-level config lines #
 
 
-permalink: /:title
+#permalink: /:title
+permalink: pretty
 
 # The release of Jekyll that this site is using
 version: v3.8.5
