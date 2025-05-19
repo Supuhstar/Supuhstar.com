@@ -64,6 +64,9 @@ introAnimationDuration: 4
 default-theme:
     color: air
     brightness: dark
+    
+commonPages:
+    about: /About
 
 sidebar:
     headerImage:
@@ -74,7 +77,8 @@ sidebar:
             alt: "Northstar System"
     
     aboutLink:
-        label: About & Contact
+        label: About Us
+        url: /About
     
     defaultLinks:
         -
@@ -86,7 +90,7 @@ sidebar:
 
 
 commonPages:
-    about: Contact
+    about: About
 
 
 
