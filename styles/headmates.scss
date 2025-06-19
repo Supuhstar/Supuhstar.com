@@ -73,8 +73,21 @@
         margin-block-end: 1em;
         
         &>p {
-            margin: 0;
-            
+            &,
+            .page &,
+            .post & {
+                margin: 0;
+                text-indent: 0;
+            }
+
+            strong {
+                letter-spacing: 0.025ex;
+            }
+
+            &.headmate-emoji {
+                opacity: 1;
+            }
+
             &:not(.headmate-name) {
                 font-size: var(--font-size-aside);
             }
@@ -93,8 +106,8 @@
         border: 1px solid var(--card-border-color);
         border-radius: var(--card-border-radius);
         margin-block: 1em;
-        padding: 1ex;
-        
+        margin-inline: 0;
+        padding-block: 1ex;
         font-style: italic;
         font-family: serif; // TODO: --theme-font-family-quote = --theme-font-family-serif = --font-family-serif
         

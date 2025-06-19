@@ -241,7 +241,18 @@
                 }
             },
             "supersystem-id": "aHAMEKIHRwC18C0BmGYBEw"
-        },
+          },
+          {
+              "uuid": "WlWshg0ySjKUSNuSK6vzFg",
+              "name": "Vex",
+              "pronouns": "it/them",
+              "kind": "alter",
+              "emoji": "🩷",
+              "bio": [
+                  "It's an avali who joined Our system rather unexpectedly in June 2025.",
+                  "It seems to be the only dissociative headmate, somehow less-affected by integration."],
+              "supersystem-id": "aHAMEKIHRwC18C0BmGYBEw"
+          },
         {
             "uuid": "aHAMEKIHRwC18C0BmGYBEw",
             "name": "Kymera", "collective-name": "The Klones",
