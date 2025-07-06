@@ -4,6 +4,15 @@ date: 2025-07-05 19:30 MT
 title: A story of a forest god
 authors:
     - Polaris
+
+excerpt: >
+    The very trees seem to whisper their unease as you pass amongst them.
+    
+    You know humans, the omnivorous fire apes who've lived among the forest for as long as you've been watching over it. They're strange but overall harmless. You love them just like all life who shares the forest.
+    
+    These humans, though, have begun a new kind of village within your forest. It's not like them to just stay in the same place, to build permanent structures, to capture and keep and breed creatures and other life for their food and burden.
+    
+    Your forest is unbalanced.
 ---
 
 
