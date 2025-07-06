@@ -39,3 +39,11 @@
 hr {
     margin: 1cm 20%;
 }
+
+
+
+ol, ul {
+    &.inline>li {
+        display: inline-block;
+    }
+}
