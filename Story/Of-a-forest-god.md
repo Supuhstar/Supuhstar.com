@@ -43,6 +43,7 @@ The child's innocent curiosity tugs at your heart. You can sense the purity of h
 The child's eyes light up with wonder and delight at your invitation. Without hesitation, she scampers forward and throws her arms around your strong neck, burying her face in your thick, soft fur. You can feel her small heart beating rapidly with excitement as she scrambles onto your back.
 
 "Are we really going for a ride?" she asks breathlessly as she settles into place, grasping fistfuls of your blue-tipped fur for balance. "Like the stories of the North Star and the little child?"
+
 You chuckle warmly, the sound rumbling through your chest. "Something like that, little one," you say, your words once again carried by the sighing breeze and whispering leaves. "But no story could capture the true majesty of the forest as I show you."
 
 ---
@@ -95,7 +96,7 @@ You feel her understanding in those words.
 "But you do still need the forest." You walk back into the forest, somehow once again near their village, miles inland. "If your village takes from the forest and never gives back, then it would be like a poisoned river. Giving nothing because none can drink of it. Taking lives and carrying them away, so not even the heartiest of mushrooms can grow from the death." You wrap a wing around the child. "Just like all forest life, your people have taken and given to this forest for longer than any of these trees have been here."
 You take a moment to breathe. The wind carries your sigh as it passes through the branches, and the voice of the forest carries a mournful concern. "Now... the forest is worried that they might no longer give back."
 
-The child wraps her arms around your wing, holding it close as she rests her head against your shoulder. "But I give back," she says softly. "When I pick mushrooms, I only take the ones we need, and I always put the dirt back when we're done cooking. And I don't cut down trees unless we really need wood for the winter." You feel her small body tense with worry as she continues. "Sometimes the older ones talk about... about clearing more space for our fields. Or cutting down trees for bigger houses." She hesitates. "Is that why the forest is scared? Because we might take too much?"
+The child wraps her arms around your wing, holding it close as she rests her head against your shoulder. "But I give back," she says softly. "When I pick mushrooms, I only take the ones we need, and I always put the dirt back when we're done cooking. And in the winter, I don't gather wood unless we really need it." You feel her small body tense with worry as she continues. "Sometimes the older ones talk about... about clearing more space for our fields. Or cutting down trees for bigger houses." She hesitates. "Is that why the forest is scared? Because we might take too much?"
 
 You smile and look back to her. "You do give back, little one." You look to the village and smile more. "Most of your people still give back..." You look at the fields and stables. "But never before has so much been taken without equal return. Your people have tasted the sweetness of isolation and are afraid to give it up... They're becoming more and more afraid to give back to the forest."
 
@@ -134,7 +135,7 @@ You watch as she looks away from you and studies the forest. You can tell that s
 
 "Very good, my child. Keep learning about the forest, and about your people. Keep playing, and keep loving all life. You'll see me again soon enough."
 
-Before the child can turn back to you to respond, you're gone, her hands clutching .
+Before the child can turn back to you to respond, you're gone.
 
 The child blinks rapidly, her small fingers clutching at a branch where your paw had been just moments before. A gust of wind stirs the leaves around her, carrying your essence — woodsmoke and wildflowers and something ancient. She turns in a slow circle, scanning the forest, but finds only trees and insects and dappled light, and a few creatures skittering about.
 
