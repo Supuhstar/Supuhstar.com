@@ -19,6 +19,19 @@ hero-image: /images/A story of a forest god - cover.png
 ---
 
 
+<!--
+Style guide:
+- Know the rules well before bending & breaking them.
+- Speak plainly, don't let fancy wording get in the way.
+- Trust the reader is smart and can deduce things that don't need to be said, but be heavy-handed where it's important.
+- Use gender-neutral titles & nouns, but only feminine pronouns for the humans.
+- All characters remain unnamed. The closest you get to a name is "North Star", but that's more a descriptor than anything else. Everyone gets names like "the child", "your oldest cousin", etc., and those _are_ used as names.
+    - This makes the characters all "faceless" in a way, allowing the reader to project whatever face they want onto them.
+- No mention of other groups of humans at all. Keep it focused on the one village, and its relationships to the one forest.
+- The setting is ambiguous, but vaguely lines up with the transition period between Archaic and Formative Mesoamerica
+-->
+
+
 
 The very trees seem to whisper their unease as you pass amongst them.
 
@@ -117,7 +130,7 @@ You look towards an elder of the village, who doesn't see you. "All life connect
 
 The child follows your gaze to the village elder walking alone along the path, his creased face thoughtful as he gathers mushrooms. You can see the way the old man moves with the rhythm of the forest: the pause to let a beetle cross the path, the careful selection of only the oldest healthy mushrooms, the way his hands caress the soil while harvesting each one.
 
-"They know..." the child says quietly. "The old ones who remember. They talk about the 'old ways' sometimes. How things used to be." She watches the elder disappear around a bend in the path. "My uncle doesn't know. He and his friends think the forest is just... trees and berries and things to take."
+"They know..." the child says quietly. "The old ones who remember. They talk about the 'old ways' sometimes. How things used to be." She watches the elder disappear around a bend in the path. "My oldest cousin doesn't know. She and her friends think the forest is just... trees and berries and things to take."
 
 You kneel back down and confirm "That's why I'm talking to you right now. You are a young one who still gives, and so you can become connected, just as all your ancestors have been."
 
