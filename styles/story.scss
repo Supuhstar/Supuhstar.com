@@ -17,3 +17,26 @@
         text-align: center;
     }
 }
+
+img {
+    &.hero-image {
+        &+.story,
+        .story>& {
+            &>h1:first-child,
+            &+h1:first-child {
+                // margin-block-start: 0;
+                margin-block-start: -3.333em;
+                margin-block-end: 2em;
+                color: hsl(0deg, 0%, 80%);
+                mix-blend-mode: color-dodge;
+                font-size: 3rem;
+                text-shadow: 0 0 1ex black, 0 0 1em black, 0 0 2em black;
+                
+                &::before {
+                    content: unset;
+                }
+            }
+        }
+    }
+}
+

@@ -13,6 +13,9 @@ excerpt: >
     These humans, though, have begun a new kind of village within your forest. It's not like them to just stay in the same place, to build permanent structures, to capture and keep and breed creatures and other life for their food and burden.
     
     Your forest is unbalanced.
+
+social-preview-image: /images/A story of a forest god - cover.png
+hero-image: /images/A story of a forest god - cover.png
 ---
 
 
