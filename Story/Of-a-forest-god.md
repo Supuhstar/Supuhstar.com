@@ -128,7 +128,7 @@ The child gasps as the tree's memories pour into her mind. Generations of creatu
 
 You look towards an elder of the village, who doesn't see you. "All life connected to the forest remember everything." After a long pause, you continue "It would be a tragedy if human life disconnects from the forest. You humans, so strange, are some of my favorite children."
 
-The child follows your gaze to the village elder walking alone along the path, his creased face thoughtful as he gathers mushrooms. You can see the way the old man moves with the rhythm of the forest: the pause to let a beetle cross the path, the careful selection of only the oldest healthy mushrooms, the way his hands caress the soil while harvesting each one.
+The child follows your gaze to the elder walking alone along the path, her creased face thoughtful as she gathers mushrooms. You can see the way the old man moves with the rhythm of the forest: the pause to let a beetle cross the path, the careful selection of only the oldest healthy mushrooms, the way her hands caress the soil while harvesting each one.
 
 "They know..." the child says quietly. "The old ones who remember. They talk about the 'old ways' sometimes. How things used to be." She watches the elder disappear around a bend in the path. "My oldest cousin doesn't know. She and her friends think the forest is just... trees and berries and things to take."
 
