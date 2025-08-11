@@ -3,6 +3,8 @@
 // Styles for Posts & Pages
 //
 
+@import "variables";
+
 
 
 :root {
@@ -587,6 +589,22 @@
         ul, ol {
             text-align: start;
         }
+    }
+}
+
+
+
+img {
+    &.hero-image {
+        min-height: 20rem;
+        max-height: 66.666vh;
+        min-width: 2in;
+        max-width: 100%;
+        margin-inline: auto;
+        display: block;
+        border-radius: 2em;
+        /* corner-shape: squircle; */
+        box-shadow: var(--box-shadow-z12);
     }
 }
 
