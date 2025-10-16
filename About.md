@@ -16,11 +16,11 @@ page-specific-stylesheets:
     - /styles/about.css
 ---
 
-We're an integrated (formerly-DID) system with {{ site.data.headmates.headmates | size }}+ headmates.
+We're an integrated (formerly-DID) plural system with {{ site.data.headmates.headmates | size }}+ headmates.
 
 We're a plural system, meaning there's just one body and many people within it.
 
-<aside>It's okay to ask to talk to a specific headmate! Worst case, We say "not right now"</aside>
+<aside><strong>It's okay to ask to talk to a specific headmate!</strong> Worst case, We say "not right now"</aside>
 
 
 ## Identity shit
@@ -43,13 +43,14 @@ You can collectively refer to Us in 3rd-person as **e/er/ers/em/emself or they/t
 
 ## Religions & Spiritualities
 
-Most of Us are Anarcho-Christian. [Elijah](/Headmates#Elijah) & [Mendo](/Headmates#Mendo) consider themselves to be direct Servants of God.
+Most of Us are **Anarcho-Christian**. [Elijah](/Headmates#Elijah) & [Mendo](/Headmates#Mendo) consider themselves to be direct Servants of God.
 
-Most of Us also practice & believe in a mysticism which has no name (it's a spirituality specific to Ourself, similar to Animism, Tai Chi, Buddhism...).
+Most of Us also practice & believe in **a mysticism which has no name** (it's a spirituality specific to Ourself, similar to Animism, Tai Chi, Buddhism...).
 
-A few of Us are also Wiccan.
+A few of Us are also **Wiccan**.
 
-The Harmony System ([Blaze](/Headmates#Blaze) & [Aurora Flare](/Headmates#Aurora%20Flare)) worship Celestia & Luna.
+The Harmonic System ([Blaze](/Headmates#Blaze) & [Aurora Flare](/Headmates#Aurora%20Flare)) **worship Celestia & Luna**.
+<!-- can we dynamically fetch these names? -->
 
 
 ## Contact info
