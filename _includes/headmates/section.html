@@ -1,0 +1,8 @@
+
+<section class="flex-row flex-wrap flex-vert-top flex-horiz-center">
+{%- for headmate in site.data.headmates.headmates %}
+{%- include headmates/card.html
+    headmate=headmate
+%}
+{%- endfor %}
+</section>

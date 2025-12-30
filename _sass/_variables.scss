@@ -1,12 +1,18 @@
 
-
-
-@mixin has-intro-animation {
-    & [class~=" has-"],
-    & [class^="has-"] {
-        &[class~="-intro-animation "],
-        &[class$="-intro-animation"] {
-            @content;
-        }
-    }
+:root {
+    --light-border-color: var(--material-blue-gray-500);
 }
+
+
+
+
+.brightness-white,
+.brightness-light {
+    --light-border-color: var(--material-blue-gray-200);
+}
+
+.brightness-dark,
+.brightness-black {
+    --light-border-color: var(--material-blue-gray-700);
+}
+

@@ -1,7 +1,6 @@
 ---
 ---
 
-@import "variables";
 @import "general";
 
 
@@ -180,15 +179,6 @@ svg g[fill="#fff"] {
         font-size: 16vh;
     }
 
-    @at-root
-    .ready-for-intro-animation:not(.go-for-intro-animation) {
-        @include has-intro-animation {
-            &#brand-name {
-                transition-duration: 0s !important;
-            }
-        }
-    }
-
 
 
 
@@ -225,53 +215,4 @@ svg g[fill="#fff"] {
 //         --gap-color: var(--theme-background-color);
 //         --base-offset: 0vh;
 //     }
-}
-
-
-// TODO: Until Chrome and Firefox support property animations, here's a bodge:
-
-.ready-for-intro-animation {
-
-    &.go-for-intro-animation {
-        @include has-intro-animation {
-            transition-duration: var(--intro-animation-duration) !important;
-        }
-    }
-
-    .has-slide-in-from-bottom-left-animation {
-        transition-property: transform;
-        transition-duration: calc(var(--intro-animation-duration) * 0.75) !important;
-
-        @at-root
-        .ready-for-intro-animation:not(.go-for-intro-animation):not(.intro-animation-complete) .has-slide-in-from-bottom-left-animation {
-            transition-property: none;
-            transform: translate(-260vmax, 150vmax);
-        }
-
-        @at-root
-        .ready-for-intro-animation.go-for-intro-animation .has-slide-in-from-bottom-left-animation {
-            --base-offset: 0vh !important;
-        }
-    }
-
-    .has-shadow-intro-animation {
-        --base-offset: 100vh !important;
-        --gap-color: transparent !important;
-
-        @at-root
-        .ready-for-intro-animation:not(.go-for-intro-animation) .has-shadow-intro-animation {
-            transition-property: color, font-size;
-
-            --logo-effect-color-1: var(--theme-background-color);
-            --logo-effect-color-2: var(--theme-background-color);
-            --logo-effect-color-3: var(--theme-background-color);
-            --logo-effect-color-4: var(--theme-background-color);
-            --logo-effect-color-5: var(--theme-background-color);
-        }
-
-        @at-root
-        .ready-for-intro-animation.go-for-intro-animation .has-shadow-intro-animation {
-            --base-offset: 0vh !important;
-        }
-    }
 }

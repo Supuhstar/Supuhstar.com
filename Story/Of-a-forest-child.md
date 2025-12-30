@@ -302,7 +302,7 @@ You look up at it, feeling the weight of what it's saying. "And if we don't?"
 
 The great wolf stands tall. "There will always be balance."
 
-You nod and bow in reverence. "thank you, North Star." You look up and tell it with as much confidence as you can muster, "I-"
+You nod and bow in reverence. "thank you, North Star." You look up and say, with as much confidence as you can muster, “I'll-”
 
 The great wolf is gone. A gentle gust of wind moves through the trees where the wolf had stood. You remain kneeling, fingers still pressed into the soil, as the forest settles back into its usual quiet rhythms.
 

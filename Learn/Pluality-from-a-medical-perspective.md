@@ -25,11 +25,12 @@ The following uncommon terms are used in this page:
 - **Plurality** – A state of existence where there is more than 1 person sharing the same body/head.
 - **Headmate** – A person who exists sharing their head with at least 1 other person. The other is also called a headmate.
 - **System** – A form of plurality where the headmates tend towards specialties in how to manage the body's life.
+- **Singlet** – The typical state of existence, when there's only one person in a body/head.
 - **Dissociation** – When one's mental state is momentarily removed from that which is external to one's body.
 - **Dissociative** – Something is considered to be dissociative when it exists due to dissociation
 - **Integration** – The state of having recovered from a severe chronic mental disorder which had once caused the brain to be strongly compartmentalized. An integrated brain is typical in that it is not strongly compartmentalized.
 - **Fusion** – When 2 or more headmates become 1. The resulting fusion often has their own distinct identity, but not always.
-- **PTSD* – Post-Traumatic Stress Disorder – This disorder involves moments where the subject is struck with flashbacks or similar dissociative episodes regarding the trauma which caused the PTSD, but otherwise can live a non-disordered life.
+- **PTSD** – Post-Traumatic Stress Disorder – This disorder involves moments where the subject is struck with flashbacks or similar dissociative episodes regarding the trauma which caused the PTSD, but otherwise can live a non-disordered life.
 - **CPTSD** – Complex PTSD – A form of PTSD where the subject's whole life is affected by disorders caused by the trauma which introduced the CPTSD.
 
 
@@ -87,16 +88,16 @@ The ICD doesn't offer any specific categories for the doctor to use in this diag
 
 You'll notice that examples 1 and 2 would fall under P-DID. Since the DSM uses these examples under OSDD but provides no concept of P-DID, and the ICD provides P-DID but has no examples under OSDD, some plurals say they are OSDD-1 or OSDD-2, rather that DID/P-DID/etc..
 
-You'll also notice that examples 3 and 4 don't describe a plurality experience. That's on-purpose! Not all dissociative disorders involve plurality, and not all plurality involves a dissociative disorder.
+You'll also notice that examples 3 and 4 don't describe a plurality experience. That's on-purpose! There are dissociative disorders which don't involve plurality, and there are pluralities which don't involve a dissociative disorder.
 
 
 
 ## What causes disorderd plurality?
 
 <aside markdown=1>
-It's important to note that not all dissociative plurality are caused exactly like this.
+It's important to remember that there are multiple causes of dissociative plurality, not just what We describe below.
 
-This is simply a cause common enough to be well-documented in medical literature.
+This cause is simply common enough to be well-documented in medical literature.
 </aside>
 
 
@@ -147,19 +148,21 @@ This means that, if your plurality does not cause clinically-significant distres
 
 ## Formerly-disordered plural systems
 
-There are various ways that a traumagenic plural system can live without their plurality being a disorder.
+There are many ways that a traumagenic plural system can live without their plurality being a disorder. Here are some common forms they can take.
 
 
-### Integrated unfused formerly-DID/P-DID/OSDD systems
+### Integrated formerly-DID/P-DID/OSDD systems
 
-These are plurals who once had DID/P-DID/OSDD, and have since resolved all the trauma that created their disordered plurality, integrated their memories into one shared memory pool, but still remain plural.
+These are plurals who once had DID/P-DID/OSDD, and have since resolved all the trauma that created their disordered plurality, integrated their memories into one shared memory pool.
 
-<aside>This is Us ever since November 2022!</aside>
+Some choose to remain plural, and some choose to fuse all headmates into one single person. These both can change over time or remain that way forever. There are also in-betweens where a plural can have some fused members and some unfused.
+
+<aside>Ever since November 2022, We've been integrated & unfused!</aside>
 
 
 ### Self-regulated traumagenic plurality
 
-This is when a plural system which came about due to trauma, like a DID system would, finds ways to live their life without clinically-significant distress/impairment caused by that plurality.
+This is when a plural system which came about due to trauma and which has not yet overcome that trauma (like a DID system), finds ways to live their life without clinically-significant distress/impairment caused by that plurality.
 
 <aside>This was Us before November 2022!</aside>
 
