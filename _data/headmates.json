@@ -242,17 +242,6 @@
             },
             "supersystem-id": "aHAMEKIHRwC18C0BmGYBEw"
           },
-          {
-              "uuid": "WlWshg0ySjKUSNuSK6vzFg",
-              "name": "Vex",
-              "pronouns": "it/them",
-              "kind": "alter",
-              "emoji": "🩷",
-              "bio": [
-                  "It's an avali who joined Our system rather unexpectedly in June 2025.",
-                  "It seems to be the only dissociative headmate, somehow less-affected by integration."],
-              "supersystem-id": "aHAMEKIHRwC18C0BmGYBEw"
-          },
         {
             "uuid": "aHAMEKIHRwC18C0BmGYBEw",
             "name": "Kymera", "collective-name": "The Klones",
@@ -675,6 +664,36 @@
         
         
         {
+            "uuid": "WlWshg0ySjKUSNuSK6vzFg",
+            "name": "Vex",
+            "group-id": "RZWPqR5tTeS6TunJ+ek46g",
+            "avatar": {
+                "url": "https://i.postimg.cc/5yc9hYyf/Vex.png"
+            },
+            "pronouns": "it/them",
+            "kind": "alter",
+            "emoji": "🩷",
+            "bio": [
+                "It's an avali who joined Our system rather unexpectedly in June 2025.",
+                "It seems to be the only dissociative headmate, somehow less-affected by integration."]
+        },
+        
+        
+        
+        {
+            "uuid": "F9akTgr4TR6asfHzOThe9g",
+            "name": "헌터", "name-alt": "Hunter",
+            "group-id": "RZWPqR5tTeS6TunJ+ek46g",
+            "pronouns": "she/her",
+            "kind": "alter",
+            "bio": [
+                "Introject combination of HUNTR/X as one headmate. Think shapeshifter but only these 3 forms.",
+                "She joined in October 2025."]
+        },
+        
+        
+        
+        {
             "uuid": "2JonfMalQzuYFCi9i/8uUQ",
             "name": "Ilirah",
             "pronouns": ["ai’re/ai’rel/ai’et/ai’rrem/ai’rema", "they/them in a plural way"],
@@ -714,34 +733,33 @@
             "default": true,
             "description-markdown": "The primary system in Our head, the one which started as a child with DID"
         },
-        {
-            "uuid": "qCKQ+/dNSzWoe/VA9jokmQ",
-            "name": "Arx",
-            "parent-group": "aHAMEKIHRwC18C0BmGYBEw",
-            "description-markdown": [
-                "The core host subsystem. Each member of this subsystem is equally a core host of the system.",
-                 "When they all fuse together, they become [Arc](#Arc)"]
-        },
-        {
-            "uuid": "aHAMEKIHRwC18C0BmGYBEw",
-            "name": "Klones",
-            "parent-group": "58Fk4/wUR6SgfhvloIquZA",
-            "description-markdown": [
-                "The host subsystem. Each member of this subsystem is a host of the system, though many have retired from that role.",
-                "When they all fuse together, they become [Kymera](#Kymera)"]
-        },
-        {
-            "uuid": "58Fk4/wUR6SgfhvloIquZA",
-            "name": "Alters",
-            "parent-group": "zrbcSaxPS+y5kLFDFrEVcQ",
-            "description-markdown": [
-                "Often referred to as the “Mainline Alters” or “Primary Alters”, these are the alters of the system who aren't in any subsystem.",
-                "When they all fuse together, they become [Polaris](#Polaris)"]
-        },
+            {
+                "uuid": "58Fk4/wUR6SgfhvloIquZA",
+                "name": "Alters",
+                "parent-group": "zrbcSaxPS+y5kLFDFrEVcQ",
+                "description-markdown": [
+                    "Often referred to as the “Mainline Alters” or “Primary Alters”, these are the alters of the system who aren't in any subsystem.",
+                    "When they all fuse together, they become [Polaris](#Polaris)"]
+            },
+                {
+                    "uuid": "aHAMEKIHRwC18C0BmGYBEw",
+                    "name": "The Klones",
+                    "parent-group": "58Fk4/wUR6SgfhvloIquZA",
+                    "description-markdown": [
+                        "The host subsystem. Each member of this subsystem is a host of the system, though many have retired from that role.",
+                        "When they all fuse together, they become [Kymera](#Kymera)"]
+                },
+                    {
+                        "uuid": "qCKQ+/dNSzWoe/VA9jokmQ",
+                        "name": "The Arx",
+                        "parent-group": "aHAMEKIHRwC18C0BmGYBEw",
+                        "description-markdown": [
+                            "The core host subsystem. Each member of this subsystem is equally a core host of the system.",
+                             "When they all fuse together, they become [Arc](#Arc)"]
+                    },
         {
             "uuid": "XrIridLDRzGdY4ylvBKDpg",
             "name": "Fragments",
-            "parent-group": "zrbcSaxPS+y5kLFDFrEVcQ",
             "auto-grouping": {
                 "match-by": {
                     "field": "kind",
@@ -750,7 +768,8 @@
             },
             "description-markdown": [
                 "Permanent headmates with very specialized skills & purposes.",
-                "Many of them see themselves as not being complete people, and having specific utility purposes, to be used for those purposes."]
+                "Many of them see themselves as not being complete people, and having specific utility purposes, to be used for those purposes.",
+                "These headmates belong to the body, not to any specific (sub)system, though it's possible for them to become alters in a (sub)system."]
         },
         
         
@@ -761,6 +780,13 @@
             "description-markdown": [
                 "A plural system of MLP:FiM tulpa introjects sharing the same head as the Northstar System, but seprate from Northstar.",
                 "[Blaze](#Blaze) built memory barriers and other such separators to make this system separate."]
+        },
+        
+        
+        
+        {
+            "uuid": "RZWPqR5tTeS6TunJ+ek46g",
+            "name": "Also Featuring..."
         },
         
         

@@ -2,6 +2,7 @@
 layout: page
 title: Headmates
 date: 2025-02-04 MT
+date-edit: 2025-12-29 MT
 
 navigation-back: false
 
@@ -11,26 +12,43 @@ page-specific-stylesheets:
 
 
 Headmates are people who exist separately but share the same head/body. Aside from that shared home, they differ in every way a person could differ from another.
-
+{:.hero}
 
 {%- if site.data.headmates.groups and site.data.headmates.groups[0] %}
     {%- for group in site.data.headmates.groups %}
-        {%- if group.parent-group %}
+        {%- assign __parentGroupId = group.parent-group %}
+        
+        {%- if __parentGroupId %}
             {%- assign __isSubgroup = true %}
         {%- else %}
             {%- assign __isSubgroup = false %}
         {%- endif %}
         
+        {%- assign __thisGroupName = group.name | default: group.uuid | default: "Unnamed Group" %}
+        
         {%- if __isSubgroup %}
             {%- assign __headingLevel = 2 %}
+            {%- for group in site.data.headmates.groups %}
+                {%- if group.uuid == __parentGroupId %}
+                    {%- assign __parentGroupName = group.name %}
+                    {%- break %}
+                {%- endif %}
+            {%- endfor %}
+            {%- assign __headingText = __parentGroupName | default: "subgroup" %}
+            {%- assign __headingText = __thisGroupName | append: " <small>(in " | append: __parentGroupName | append: ")</small>" %}
         {%- else %}
             {%- assign __headingLevel = 1 %}
+            {%- assign __headingText = __thisGroupName %}
         {%- endif %}
-<h{{__headingLevel}}>{{ group.name | default: group.uuid | default: "Unnamed Group" }}</h{{__headingLevel}}>
+<h{{__headingLevel}}>{{ __headingText }}</h{{__headingLevel}}>
 
-        {%- for line in group.description-markdown %}
-<p markdown="1">{{ line }}</p>
-        {%- endfor %}
+        {%- if group.description-markdown %}
+<aside class="card">
+            {%- for line in group.description-markdown %}
+    <p markdown="1">{{ line }}</p>
+            {%- endfor %}
+</aside>
+        {%- endif %}
 
 <section class="flex-row flex-wrap flex-vert-top flex-horiz-center">
     {%- comment %}

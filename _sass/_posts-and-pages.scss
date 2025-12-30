@@ -22,6 +22,7 @@
     max-width: var(--desktop-small-max-width);
     margin: auto;
     
+    
     a:empty {
         /*
          * Empty anchor tags are used for fragment linking; give it a tall top so links to these
@@ -192,8 +193,11 @@
         border-width: 1px;
         border-style: solid;
         border-radius: 1ex;
-        border-color: var(--semitransparent-grey);
+        border-color: var(--light-border-color, var(--material-blue-gray-500, currentColor));
         font-size: 0.8rem;
+        
+        opacity: 0.8;
+        transition-property: color, background, border-color;
         
         &,
         p {

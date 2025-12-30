@@ -12,16 +12,19 @@
 
     h1,
     h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        margin-block: 2em;
+    h3 {
         text-align: center;
+        
+        &,
+        h4,
+        h5,
+        h6 {
+            margin-block: 3.5em 2em;
+        }
     }
 
 
-    p {
+    p:not(:last-child) {
         margin-block-end: 1em;
     }
 }
