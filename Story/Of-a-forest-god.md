@@ -5,6 +5,8 @@ title: A story of a forest god
 authors:
     - Polaris
 
+word-count: 2682
+
 excerpt: >
     The very trees seem to whisper their unease as you pass amongst them.
     
@@ -15,20 +17,35 @@ excerpt: >
     Your forest is unbalanced.
 
 social-preview-image: /images/A story of a forest god - cover.png
-hero-image: /images/A story of a forest god - cover.png
+hero:
+    -
+        image:
+            url: /images/A story of a forest god - cover 1.png
+            artist: Ky
+            verb: Directed
+    -
+        image:
+            url: /images/A story of a forest god - cover 2.png
+            artist: Ky
+            verb: Directed
+    -
 ---
 
 
 <!--
 Style guide:
+- Second person
+
 - Know the rules well before bending & breaking them.
 - Speak plainly, don't let fancy wording get in the way.
 - Trust the reader is smart and can deduce things that don't need to be said, but be heavy-handed where it's important.
+
+- The setting is ambiguous, but vaguely lines up with the transition period between Archaic and Formative Mesoamerica (just after hunter-gatherer, as they're transitioning to agricultural)
+
 - Use gender-neutral titles & nouns, but only feminine pronouns for the humans.
 - All characters remain unnamed. The closest you get to a name is "North Star", but that's more a descriptor than anything else. Everyone gets names like "the child", "your oldest cousin", etc., and those _are_ used as names.
     - This makes the characters all "faceless" in a way, allowing the reader to project whatever face they want onto them.
 - No mention of other groups of humans at all. Keep it focused on the one village, and its relationships to the one forest.
-- The setting is ambiguous, but vaguely lines up with the transition period between Archaic and Formative Mesoamerica
 -->
 
 
