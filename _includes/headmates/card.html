@@ -5,9 +5,18 @@
     {%- assign headmate.kind = headmate.kind | concat: __tmp -%}
 {%- endunless -%}
 
+{%- assign htmlClass=nil -%}
+
+{%- case headmate.status -%}
+    {%- when "missing" -%}
+        {%- assign htmlClass="missing" -%}
+    {%- else -%}
+        
+{%- endcase -%}
+
 {%- assign id = headmate.id | default: headmate.name -%}
 
-<figure class="headmate card" {%- if id %} id="{{ id }}" {%- endif -%}>
+<figure class="headmate card {%- if htmlClass %}   {{ htmlClass }} {%- endif -%}" {%- if id %} id="{{ id }}" {%- endif -%}>
     {%- if headmate.color.primary.hex and id %}
     <style>
         #{{ id }} {
@@ -17,7 +26,7 @@
     {%- endif -%}
     
     {%- if headmate.avatar %}
-    <a href="{{ headmate.avatar.url }}" target="_blank" decoding="async" fetchpriority="low" loading="lazy"><img class="avatar" src="{{ headmate.avatar.url }}" /></a>
+    <a href="{{ headmate.avatar.url }}" target="_blank" decoding="async" fetchpriority="low" loading="lazy"><img class="avatar" src="https://supuhstar.com/cdn-cgi/image/width=720/{{ headmate.avatar.url }}" /></a>
     {%- endif %}
     <figcaption>
         <header>
@@ -49,6 +58,12 @@
                 {%- if id %}
                 <a href="{{ page.url }}#{{ id }}" class="permalink"> <i class="fas fa-link"></i></a>
                 {%- endif -%}
+                
+                {%- if headmate.status %}
+                    {%- include headmates/status.html
+                        status=headmate.status
+                    %}
+                {%- endif %}
             </p>
             {%- if headmate.kind or headmate.pronouns %}
             <p class="headmate-kind-and-pronouns">(

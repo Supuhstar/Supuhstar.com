@@ -2,7 +2,7 @@
 layout: page
 title: Headmates
 date: 2025-02-04 MT
-date-edit: 2025-12-29 MT
+date-edit: 2026-04-06 MT
 
 navigation-back: false
 
@@ -90,7 +90,9 @@ Headmates are people who exist separately but share the same head/body. Aside fr
             {%- comment %}shouldShow:
                 belongsToThisGroup or belongsToThisDefaultGroup
                 {{ belongsToThisGroup | jsonify }} or {{ belongsToThisDefaultGroup | jsonify }}{%- endcomment %}
-                {%- if belongsToThisGroup or belongsToThisDefaultGroup %}
+                {%- if headmate.hide %}
+                    {%- assign shouldShow = false %}
+                {%- elsif belongsToThisGroup or belongsToThisDefaultGroup %}
                     {%- assign shouldShow = true %}
                 {%- else %}
                     {%- assign shouldShow = false %}
