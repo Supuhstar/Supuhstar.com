@@ -5,12 +5,12 @@
 #
 
 # Name of the site (displayed in the content)
-name: Northstar System
+name: The Northstar✨ System
 # Name of the site (displayed in the tab)
-title: Northstar System
+title: Northstar✨ & more
 
 # Short bio or description (in share links)
-description: We are The Northstar System and The Harmonic System, a few dozen people sharing the same body
+description: "We are The Northstar System, The Harmonic System, & others in Ky: a few dozen people sharing the same body"
 
 
 brand:
@@ -94,9 +94,14 @@ commonPages:
 
 
 
-# This website URL
+# URLs #
+
 # Used for Sitemap.xml and the RSS feed
 url: https://Supuhstar.com
+
+# Jekyll needs this if you're gonna be weird with SSH keys, and We are
+repository: Supuhstar/Supuhstar.com
+
 source-code:
     url: https://github.com/Supuhstar/Supuhstar.com
     productionBranchName: production
@@ -112,7 +117,6 @@ timezone: America/Denver
 
 
 # Low-level config lines #
-
 
 #permalink: /:title
 permalink: pretty

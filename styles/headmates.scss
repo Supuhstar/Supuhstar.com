@@ -25,6 +25,10 @@
         }
     }
     
+    &.missing {
+        opacity: 75%;
+    }
+    
     
     img.avatar {
         min-height: 1in;
@@ -62,6 +66,12 @@
         @at-root .headmate:hover .permalink {
             opacity: 1;
         }
+    }
+    
+    .status.pill {
+        margin-block: 0;
+        padding-block: 0;
+        vertical-align: baseline;
     }
     
     :link, :visited {
@@ -108,6 +118,7 @@
         margin-block: 1em;
         margin-inline: 0;
         padding-block: 1ex;
+        padding-inline: 1ex;
         font-style: italic;
         font-family: serif; // TODO: --theme-font-family-quote = --theme-font-family-serif = --font-family-serif
         
