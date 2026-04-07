@@ -789,14 +789,14 @@
         
         {
             "uuid": "RZWPqR5tTeS6TunJ+ek46g",
-            "name": "Also Featuring..."
+            "name": "extra beans"
         },
         
         
         
         {
             "uuid": "qzcHlNMjTA+KRwp5qZGxIA",
-            "name": "Long-Term Visitors",
+            "name": "long-term visitors",
             "description-markdown": "Folks who currently reside in this head, but aren't a member of any of its systems. They're from somewhere else, and intend to leave at some point.",
             "auto-grouping": {
                 "match-by": {

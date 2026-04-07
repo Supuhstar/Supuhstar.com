@@ -14,6 +14,40 @@ page-specific-stylesheets:
 Headmates are people who exist separately but share the same head/body. Aside from that shared home, they differ in every way a person could differ from another.
 {:.hero}
 
+
+{% assign primarySystem = site.data.headmates.groups
+    | where: "uuid", site.notableSystemIds.primarySystem
+    | first
+    %}
+{%- assign hostSubsystem = site.data.headmates.groups
+    | where: "uuid", site.notableSystemIds.hostSubsystem
+    | first
+    %}
+{%- assign allOtherSystems = site.data.headmates.groups
+    | where_exp: "item", "item.parent-group == nil"
+    | where_exp: "item", "item.uuid != site.notableSystemIds.primarySystem"
+    %}
+
+{% assign allOtherSystemNames = allOtherSystems | map: "name" %}
+
+{%- capture allOtherSystemsEnglishList -%}
+    {%- for name in allOtherSystemNames -%}
+        {%- if forloop.first -%}
+            {{ name }}
+        {%- elsif forloop.last -%}
+            {% if allOtherSystemNames.size > 2 %}, and {% else %} and {% endif %}{{ name -}}
+        {%- else -%}
+            , {{ name }}
+        {%- endif -%}
+    {%- endfor -%}
+{%- endcapture -%}
+
+
+Our shared body, Ky, is home to about **{{ site.data.headmates.headmates | size }} headmates**. You'll most commonly meet headmates in {{ primarySystem.name }} {%- if hostSubsystem -%}, specifically {{ hostSubsystem.name }} {%- endif -%}.
+
+{% unless allOtherSystems == empty -%} Outside {{ primarySystem.name }} but also in the same body, you'll find {{ allOtherSystemsEnglishList }}. {% endunless %}
+
+
 {%- if site.data.headmates.groups and site.data.headmates.groups[0] %}
     {%- for group in site.data.headmates.groups %}
         {%- assign __parentGroupId = group.parent-group %}
