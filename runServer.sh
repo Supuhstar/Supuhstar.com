@@ -1,3 +1,6 @@
+#!/bin/bash
+
+source checkRequirements.sh || exit $?
 
 rm -r ./_site/
 
