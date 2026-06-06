@@ -14,7 +14,7 @@ description: "We are The Northstar System, The Harmonic System, & others in Ky: 
 
 
 brand:
-    name: The Northstar✨ System
+    name: The Northstar✨ System & Co.
     color:
         primary: "#1E007C"
     logo:
@@ -126,8 +126,8 @@ timezone: America/Denver
 
 # Low-level config lines #
 
-#permalink: /:title
-permalink: pretty
+#permalink: `/:title/`, `pretty`, etc.
+permalink: /:title/
 
 # The release of Jekyll that this site is using
 version: v3.8.5
@@ -152,6 +152,8 @@ plugins:
     - jekyll-feed  # Create an Atom feed using the official Jekyll feed gem
     - jekyll-archives
     - jekyll-redirect-from  # Allow multiple names for a page
+whitelist: # allow these (apparently listing it as required ain't enough for it to actually work)
+    - jekyll-redirect-from
 
 # Exclude these files from your production _site
 exclude:
