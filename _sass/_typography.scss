@@ -3,3 +3,168 @@
 :root {
     --font-size-aside: calc(var(--font-size-body, 11pt) * 0.9);
 }
+
+
+
+// // // Dipper // // //
+
+:root {
+    // family
+    --font-family-primary: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", Roboto, sans-serif;
+    --font-family-titles: "Passion One", Roboto, sans-serif;
+    --font-family-major-headings: var(--font-family-titles);
+    --font-family-minor-headings: "Roadgeek 2005 Series C", "Roboto Condensed", Roboto, sans-serif;
+    --font-family-h1: var(--font-family-titles);
+    --font-family-h2: var(--font-family-major-headings);
+    --font-family-h3: var(--font-family-major-headings);
+    --font-family-h4: var(--font-family-minor-headings);
+    --font-family-h5: var(--font-family-minor-headings);
+    --font-family-h6: var(--font-family-minor-headings);
+    
+    
+    // size
+    
+    --font-size-body: 16px;
+    --font-size-title: calc(1.10 * var(--font-size-h1));
+    --font-size-h1: calc(4.50 * var(--font-size-body));
+    --font-size-h2: calc(3.75 * var(--font-size-body));
+    --font-size-h3: calc(2.25 * var(--font-size-body));
+    --font-size-h4: calc(2.00 * var(--font-size-body));
+    --font-size-h5: calc(1.75 * var(--font-size-body));
+    --font-size-h6: calc(1.50 * var(--font-size-body));
+    
+    @at-root {
+        .app-bar {
+            --font-size-title: calc(1.25 * var(--font-size-body));
+        }
+    }
+    
+    
+    // spacing
+    
+    --line-height: 1.2;
+    --paragraph-spacing: 0.75em;
+    
+    --spacing-before-title: 1em;
+    --spacing-after-title: 1em;
+    
+    --spacing-before-h1: min(1.5em, 25vh);
+    --spacing-after-h1: calc(3.00 * var(--font-size-body));
+    
+    --spacing-before-h2: min(1em, 25vh);
+    --spacing-after-h2: calc(2.00 * var(--font-size-body));
+    
+    --spacing-before-h3: min(1em, 25vh);
+    --spacing-after-h3: calc(1.50 * var(--font-size-body));
+    
+    --spacing-before-h4: min(1em, 25vh);
+    --spacing-after-h4: calc(1.50 * var(--font-size-body));
+    
+    --spacing-before-h5: min(1em, 25vh);
+    --spacing-after-h5: calc(1.50 * var(--font-size-body));
+    
+    --spacing-before-h6: min(1em, 25vh);
+    --spacing-after-h6: calc(1.50 * var(--font-size-body));
+    
+    @at-root {
+        .app-bar & {
+            --spacing-before-h1: unset;
+            --spacing-after-h1: unset;
+        }
+        
+        h1 {
+            margin-block-end: var(--spacing-after-h1);
+            
+            &:not(:first-child) {
+                padding-block-start: var(--spacing-before-h1);
+            }
+        }
+        
+        h2 {
+            margin-block-end: var(--spacing-after-h2);
+            
+            &:not(:first-child) {
+                padding-block-start: var(--spacing-before-h2);
+            }
+        }
+        
+        h3 {
+            margin-block-end: var(--spacing-after-h3);
+            
+            &:not(:first-child) {
+                padding-block-start: var(--spacing-before-h3);
+            }
+        }
+        
+        h4 {
+            margin-block-end: var(--spacing-after-h4);
+            
+            &:not(:first-child) {
+                padding-block-start: var(--spacing-before-h4);
+            }
+        }
+        
+        h5 {
+            margin-block-end: var(--spacing-after-h5);
+            
+            &:not(:first-child) {
+                padding-block-start: var(--spacing-before-h5);
+            }
+        }
+        
+        h6 {
+            margin-block-end: var(--spacing-after-h6);
+            
+            &:not(:first-child) {
+                padding-block-start: var(--spacing-before-h6);
+            }
+        }
+        
+        p {
+            margin-block: var(--paragraph-spacing);
+            
+            line-height: var(--line-height);
+        }
+    }
+    
+    
+    // weight
+    
+    --font-weight-title: bold;
+    --font-weight-h1: bolder;
+    --font-weight-h2: bolder;
+    --font-weight-h3: normal;
+    --font-weight-h4: normal;
+    --font-weight-h5: normal;
+    --font-weight-h6: normal;
+    
+    
+    // alignment
+    
+    --text-alignment-titles: center;
+    --text-alignment-major-headings: center;
+    --text-alignment-minor-headings: leading;
+    --text-alignment-h1: var(--text-alignment-titles);
+    --text-alignment-h2: var(--text-alignment-minor-headings);
+    --text-alignment-h3: var(--text-alignment-minor-headings);
+    --text-alignment-h4: var(--text-alignment-minor-headings);
+    --text-alignment-h5: var(--text-alignment-minor-headings);
+    --text-alignment-h6: var(--text-alignment-minor-headings);
+    
+    @at-root {
+        h1 {
+            text-align: var(--text-alignment-h1);
+            
+            &.title,
+            title & {
+                text-align: var(--text-alignment-titles);
+            }
+        }
+        
+        h2 { text-align: var(--text-alignment-h2); }
+        h3 { text-align: var(--text-alignment-h3); }
+        h4 { text-align: var(--text-alignment-h4); }
+        h5 { text-align: var(--text-alignment-h5); }
+        h6 { text-align: var(--text-alignment-h6); }
+    }
+}
