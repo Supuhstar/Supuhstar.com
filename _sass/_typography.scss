@@ -29,9 +29,9 @@
     --font-size-h1: calc(4.50 * var(--font-size-body));
     --font-size-h2: calc(3.75 * var(--font-size-body));
     --font-size-h3: calc(2.25 * var(--font-size-body));
-    --font-size-h4: calc(2.00 * var(--font-size-body));
-    --font-size-h5: calc(1.75 * var(--font-size-body));
-    --font-size-h6: calc(1.50 * var(--font-size-body));
+    --font-size-h4: calc(1.75 * var(--font-size-body));
+    --font-size-h5: calc(1.50 * var(--font-size-body));
+    --font-size-h6: calc(1.25 * var(--font-size-body));
     
     @at-root {
         .app-bar {
