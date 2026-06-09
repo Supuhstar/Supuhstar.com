@@ -38,6 +38,26 @@
 
 
 
+a[name],
+a[id] {
+    &:not([href]) {
+        &::before {
+            content: "";
+            display: block;
+            height: 0;
+            padding-block-start: var(--pure-anchor-top-offset);
+            margin-block-start: calc(0px - var(--pure-anchor-top-offset));
+            
+            
+            @at-root :root {
+                --pure-anchor-top-offset: calc(2 * var(--app-bar-height-auto));
+            }
+        }
+    }
+}
+
+
+
 hr {
     margin: 1cm 20%;
 }

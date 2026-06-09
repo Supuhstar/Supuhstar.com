@@ -13,4 +13,4 @@ if [ 0 -ne $bundleCheckStatus ]; then
 fi
 
 # jekyll serve --trace --incremental
-bundle exec jekyll serve --trace --incremental --safe
+bundle exec jekyll serve --trace --incremental --safe --livereload

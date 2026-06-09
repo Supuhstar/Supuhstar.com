@@ -4,7 +4,7 @@ date: 2026-06-05
 
 
 
-Psilocybin is legal in many places now, including Colorado and Oregon!
+Psilocybin (magic mushrooms) is legal in many places now, including Colorado and Oregon!
 
 There's lots of benefits to using psylocybin, and a lot of dangers and other considerations. If you want to try it, here's a guide for doing so safely.
 
@@ -78,18 +78,18 @@ After you have the **growth medium**, **bag/box**, and **syringe**,
 
 ### Cheatsheet
 
-Here's the **tl;dr** of actually taking the shrooms. After this cheatsheet, We elaborate on all these instructions.
+Here's the **tl;dr** of actually taking the shrooms. [Below this cheatsheet](#elaboration), We elaborate on all these instructions.
 
 <aside markdown=1 class="cheatsheet card">
 
-### Expected physical effects
+#### Expected physical effects
 - Heart rate +10~20bpm
 - Systolic blood pressure +20~30mmHg
 - Dilated pupils
 - Unsteadiness / poor coordination
 - Flatulence
 
-#### Uncommon expected physical effects
+##### Uncommon expected physical effects
 - Nausea/vomiting early (first 30–90 minutes).
     - Up to ~48% of clinical sessions
     - Vomiting later isn't necessarily a sign of anything 911-worthy
@@ -103,8 +103,8 @@ Here's the **tl;dr** of actually taking the shrooms. After this cheatsheet, We e
 
 
 
-### Emergency smyptoms
-Call emergency services _immediately_ in case of any of the following:
+#### Emergency smyptoms
+Call emergency services (911, 112, 999, 000, etc.) _immediately_ in case of any of the following:
 
 - Severe hyperthermia, muscle rigidity
 - Myoclonic jerks/seizures (~0.07% of studied cases)
@@ -120,27 +120,28 @@ When seeking medical care, _always_ bring a sample of the same substance that ca
 
 
 
-### Signs of a bad trip (safe, non-911):
+#### Signs of a bad trip (safe, non-emergency):
 > fear, grief, terror, paranoia, ego-death, reliving trauma, crying, shaking, panic, sanity concerns.
 
-#### In case of a non-911 bad trip:
+##### In case of a non-emergency bad trip:
 - Reassurance, safety, and patience.
 - Trust, let go, be open, breathe, surrender
 - Don't try to end the trip; sit with the person rather than directing them; offer gentle reassurance & reframing (e.g. “you took a substance, it will wear off, you are safe”)
 - A negative loop (the same terrifying thought cycling) might be broken by gentle changes: shifting position, opening eyes, changing music, a brief walk, water, reminding them to breathe.
-    - Ask clarifying questions, not arguing with their reality, (e.g. “what is this here to show you?”)
+    - Ask clarifying questions without arguing, (e.g. “what is this here to show you?”)
 - You may also call or text FIRESIDE: +1 (623) 473-7433
 
 
 
-### Dosing
+#### Dosing
+- First time: take a low dose to know whether your body will have an adverse reaction.
 - Average 0.5~1g, max ~3.5g. Obviously lower for lower-weight people.
 - Actual psilocybin content may vary by up to ~100%.
 - Grind shrooms into powder before consuming to average variance
 
 
 
-### Expected timeline
+#### Expected timeline
 - Onset: 20~60min
 - Active: hours 2~9
     - Peak: hours 2~4
@@ -152,7 +153,7 @@ When seeking medical care, _always_ bring a sample of the same substance that ca
 
 
 
-### Expected psychological effects
+#### Expected psychological effects
 - Psychedelic hallucinations & modified sense of reality (multi-hour tail)
 - Increased bliss (multi-day tail)
 - Ego dissolution naps (only interrupt if concerned)
@@ -162,8 +163,8 @@ When seeking medical care, _always_ bring a sample of the same substance that ca
 
 
 
-### Prepare before dosing
-- A trusted sober person to monitor you for adverse symptoms andor a bad trip
+#### Prepare before dosing
+- A trip sitter: a trusted sober person to monitor you for adverse symptoms andor a bad trip
 - A cozy & safe space. Blankets, plushies, etc.
 - Calming/interesting music & visuals
     - Instrumental preferred, especially at peak (lyrics can interrupt at best, accidentally guide at worst)
@@ -180,7 +181,9 @@ When seeking medical care, _always_ bring a sample of the same substance that ca
 - Eyeshades / sleep mask for ego dissolution naps
 - Easy bathroom access with door unlocked (no locking oneself in alone)
 
-### General advice
+
+
+#### General advice
 - Have a dedicated sober sitter for the whole main experience (6~12hrs) 
 - Ensure hydration
 - Don't crossfade, especially:
@@ -195,22 +198,23 @@ When seeking medical care, _always_ bring a sample of the same substance that ca
 
 
 
-### Possible outcomes
+#### Possible outcomes
 - New self-understanding
 - New worldview
 - Some recovery from Long-COVID. Some studies found worsening as well.
 - Emotional trauma recovery
+- Plurality changes
 </aside>
 
 
 
-### Safety first
+### <a name="elaboration"/>Safety first
 
 Unlike THC, alcohol, caffeine, nicotine, and many other psychoactive substances, psilocybin comes with notable risks.
 
 > With most healthy bodies, consuming a strain of [Psilocybe Cubensis](https://en.wikipedia.org/wiki/Psilocybe_cubensis) will result in a good experience without adverse effects. However, unknown health conditions, contaminants, etc. might lead to serious health concerns. It's best to be prepared just in case!
 
-**Always have someone trusted nearby** who can step in to help you in case of a physical or mental health emergency, or even just a bad trip. That person should read all of this as well.
+**Always have a trip sitter**: someone trusted nearby who can step in to help you in case of a physical or mental health emergency, or even just a bad trip. That person should read all of this as well.
 
 These are known possible symptoms of a **medical emergency** while taking psilocybin:
 
@@ -222,15 +226,117 @@ These are known possible symptoms of a **medical emergency** while taking psiloc
 - Behavior that endangers life
 - Any other symptoms of serotonin toxicity, hyperthermia, andor cardiovascular strain
 
-If _any_ of these are experienced, _immediately_ call emergency services, or go to an emergency room. **Always bring the substance** which caused the emergency.
+If _any_ of these are observed, _immediately_ call emergency services, or go to an emergency room / A&E. **Always bring the substance** which caused the emergency.
+
+
+#### Have supplies handy
+
+To know whether or not there is a medical emergency, make sure you have these common supplies ready nearby:
+
+- A body temperature thermometer. Oral or in-ear preferred, but any clinical one will do
+- A pulse oxymeter (commonly called a "pulseox") to measure heartrate and blood oxygen concentration (SpO2)
+- A blood pressure cuff. Doesn't have to be hospital-grade, just has to do the job
+
+Make sure you thoroughly learn how to use these well before dosing. You want their use to be normalized and skilled, so you can take readings whenever needed without interrupting the trip too much.
+
+Using these to check temperature, heartrate, SpO2, and blood pressure, is called checking vitals.
+
+
+#### When to check vitals
+
+In addition to practicing checking vitals for awhile beforehand, you should check them once immediately before the first dose, and write down the readings, to make sure you know for sure whether any readings are too far out of the expected changes.
+
+We also recommend taking a second reading in the mid-late stages of the onset period, in case that might catch anything early.
 
 
 
-### Bodily expectations
+### Expectations
+
+Here's what you should expect while you're on shrooms.
+
+#### Body
+
+A normal trip is expected to have these physical effects, but it's okay if it doesn't:
+
+- Slightly elevated heartrate (+10~20 bpm)
+- Slightly increased blood pressure (+20~30 mmHg systolic)
+- Dilated pupils
+- Unsteadiness, poor coordination, mild dizziness, etc.
+- Flatulence (may continue well after the trip)
+
+
+In addition to those, some less-common effects might include:
+
+- Nausea andor vomiting within the first 30~90 minutes. Up to ~48% of clinical sessions noted this happening. As long as it remains in this window and doesn't result in other problems like blood loss or severe dehydration, it's okay. Vomiting later is more concerning, but isn't necessarily a sign of a medical emergency.
+- Sweating andor chills
+- Feeling too hot or to cold
+- Mild tremors
+- Mild arrhythmia (uneven heartrate)
+- Yawning
+- Weakness or increased perceived strength
+- Severe dizziness
+- Mild headache
+
+
+As long as these remain controlable, or mild, then there is likely no medical emergency. If many of these present at the same time, **keep an eye on vitals** (temperature, heartrate, SpO2, and blood pressure) even if that means interrupting the trip.
+
+If your measurements fall outside these expected changes, that's a medical emergency and you should _immediately_ call emergency services.
 
 
 
-### Mental/spiritual expectations
+#### Mind & soul
+
+These are the psychological and psychadelic effects you've probably heard of. 
+
+Unlike THC, alcohol, caffeine, nicotine, and many other psychoactive substances, psilocybin can change your mind/soul permanently.
+
+> Psilocybin (magic mushrooms) **_isn't_ for getting high** and having fun. Treat it with respect & deference as a substance that assists in a **spiritual experience**, like DMT (ayahuasca), mescaline (peyote), etc..
+
+
+While on shrooms, you should expect:
+
+- Psychadelic hallucinations
+- A modified perception of reality, including when your eyes are open and you're trying to focus
+- Ego dissolution, including naps/meditation
+- Internal plurality effects, including: Being visited by a new presence, being frontstuck, rapid switching, changes in how old you feel internally, discovering someone in your head, etc.
+- Past-life memories coming to you
+- A sense of "oneness" (what exactly this means can vary wildly)
+
+You might be familiar with some of these already. If you've never tried psilocybin before, be prepared for it to still be much different than you're used to.
 
 
 
+### What's a bad trip look like?
+
+While uncommon, bad trips do happen. Just so you're not surprised by one, here's what it might be like:
+
+- Strong feelings of fear, grief, paranoia, or panic
+- Paranoia
+- Ego death (complete loss of any sense of self)
+- Re-living traumatic events
+- Uncontrolled crying
+- Shaking
+- A feeling that you're going insane
+- A negative spiral/loop (the same terrifying thoughts cycling over and over again)
+
+While very difficult to go through, you'll be safe experiencing these. Just ride it out; it'll stop all on its own, even if it takes an hour or two.
+
+If you're a trip sitter:
+- **Keep an eye out for signs of a medical emergency.** If you don't see any, then they'll be okay when the trip is over.
+- Reassure them that they're safe
+- Trust that it'll be okay, be open to this possibly being a good thing, remember to breathe, and surrender control. **You can't make it stop any sooner**, but your confident and gentle presence might make it easier for them.
+- Gentle changes might break them out of a negative loop:
+    - Shifting their position
+    - Telling them to open their eyes
+    - Changing the music
+    - Taking them on a brief & safe walk (even just around the room/home)
+    - Having them drink water
+    - Reminding them to breathe, too. Demonstrating can help.
+- Ask clarifying questions without arguing with what they're experiencing (for example: "What do you think this is trying to show you?")
+
+If you feel like you can't do it alone, or just want someone experienced to help out, you might also text or call [The Fireside Project](https://firesideproject.org): [+1 (623) 473-7433](callto:16234737433)
+
+
+### What's a good trip look like?
+
+### How long should this take?

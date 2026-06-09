@@ -53,29 +53,15 @@
     p, li {
         color: var(--theme-foreground-color);
         color: color-mix(in srgb, var(--theme-foreground-color) 80%, transparent);
-    }
-    
-    p {
-        line-height: 1.333;
-        text-indent: 1em;
-        
-        font-weight: 400;
-        
-        * {
-            text-indent: 0;
-        }
         
         strong {
             font-weight: 900;
             color: var(--theme-foreground-color);
             letter-spacing: 0.075ex;
         }
-        
-        em {
-            font-style: italic;
-            text-decoration: underline;
-        }
-        
+    }
+    
+    p {
         button,
         .button,
         :link.button,
@@ -85,46 +71,10 @@
         .image-button {
             text-indent: 0;
         }
-        
-        &.big, & .big {
-            font-size: larger;
-        }
-        
-        &:not(:last-child) {
-            margin: 0 0 1em;
-        }
-    }
-    
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        padding: var(--heading-spacing-block-start) 0 0;
-        margin: 0 0 var(--heading-spacing-block-end);
-    }
-    
-    hr {
-        &+h1,
-        &+h2,
-        &+h3,
-        &+h4,
-        &+h5,
-        &+h6 {
-            padding: unset;
-            margin: var(--heading-spacing-block-start) 0 var(--heading-spacing-block-end);
-        }
-    }
-    
-    aside {
-      h1, h2, h3, h4, h5, h6 {
-        padding: 0;
-      }
     }
     
     h1 {
-        margin-block-start: 5em;
+        // margin-block-start: 5em;
         position: relative;
         
         &::before {
@@ -132,12 +82,20 @@
             display: block;
             position: absolute;
             bottom: 0;
-            left: -1ex;
-            width: calc(100% + 2ex);
+            left: -0.5ex;
+            width: calc(100% + 1ex);
             
             border-radius: 0.25ex;
             margin-block-start: 4em;
             border-bottom: 0.5ex solid color-mix(in srgb, currentColor 20%, transparent);
+        }
+    }
+    
+    @at-root {
+        h1, h2, h3 {
+            &:not(:first-child) {
+                padding-block-start: max(30vh, 5em);
+            }
         }
     }
     
@@ -168,24 +126,8 @@
         text-align: center;
     }
     
-    ul,
-    ol {
-        margin-block: 1em;
-        
-        & > li {
-            margin-block-start: 1ex;
-            
-            & > ol,
-            & > ul {
-                &:first-of-type,
-                & > li:first-child {
-                    margin-block-start: 1pt;
-                }
-            }
-        }
-    }
-    
-    aside {
+    aside[class=""],
+    aside:not([class]) {
         width: fit-content;
         margin: var(--post-and-page--aside-margin);
         margin-inline-start: auto;
@@ -203,6 +145,10 @@
         p {
             line-height: 1.4;
             text-indent: 0;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            padding: 0;
         }
         
         &.align-leading {
@@ -241,11 +187,16 @@
         }
     }
     
-    blockquote {
-        background-color: var(--theme-background-color-at-level-2);
+    blockquote[class=""],
+    blockquote:not([class]) {
+        background-color: var(--theme-background-color-at-level-raised);
         border-radius: 1ex;
         border-inline-start: 2px solid var(--semitransparent-grey);
         color: inherit;
+        
+        p {
+            text-indent: 1em;
+        }
         
         margin: 2em;
         padding: 1em;
@@ -540,7 +491,7 @@
         h1, h2, h3, h4, h5, h6 {
             margin-block-start: 0.5ex;
             padding-block-start: 0;
-            font-size: 1em;
+            font-size: 1.1em;
             text-align: start;
         }
         
@@ -597,6 +548,9 @@
 
 
 .card {
+    
+    --theme-background-color-at-level-raised: var(--theme-background-color-at-level-3);
+    
     @media(max-width: 960px) { // var(--desktop-small-max-width)
         max-width: 100%;
     }

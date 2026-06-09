@@ -16,3 +16,8 @@
 main {
     transform: none;
 }
+
+
+
+// Since these can be critical, they must be loaded last so that no other style overrides them
+@import "critical-styles";

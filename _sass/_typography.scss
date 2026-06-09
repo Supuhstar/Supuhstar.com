@@ -6,10 +6,57 @@
 
 
 
+ol,
+ul {
+    margin-block: 1em;
+    margin-inline: 2em;
+    
+    & > li {
+        margin-block-start: 0.5ex;
+        
+        & > ol,
+        & > ul {
+            &:first-of-type,
+            & > li:first-child {
+                margin-block-start: 1pt;
+            }
+        }
+    }
+}
+
+
+
+p {
+    line-height: 1.333;
+    // text-indent: 0;
+    
+    font-weight: 400;
+    
+    // * {
+    //     text-indent: 0;
+    // }
+    
+    em {
+        font-style: italic;
+        text-decoration: underline;
+    }
+    
+    &.big, & .big {
+        font-size: larger;
+    }
+    
+    &:not(:last-child) {
+        margin: 0 0 1em;
+    }
+}
+
+
+
 // // // Dipper // // //
 
 :root {
     // family
+    
     --font-family-primary: "Atkinson Hyperlegible Next", "Atkinson Hyperlegible", Roboto, sans-serif;
     --font-family-titles: "Passion One", Roboto, sans-serif;
     --font-family-major-headings: var(--font-family-titles);
@@ -20,6 +67,15 @@
     --font-family-h4: var(--font-family-minor-headings);
     --font-family-h5: var(--font-family-minor-headings);
     --font-family-h6: var(--font-family-minor-headings);
+    
+    @at-root {
+        .post, .page {
+            h1::before {
+                // Passion One's encoded baseline is a little bit farther down from its visual baseline. If we have an underline element, move it closer by a bit.
+                bottom: 0.06ex !important;
+            }
+        }
+    }
     
     
     // size
@@ -120,11 +176,31 @@
             }
         }
         
+        h1, h2, h3, h4, h5, h6 {
+            h1+&, h2+&, h3+&, h4+&, h5+&, h6+& {
+                margin-block-start: 0 !important;
+                padding-block-start: 0 !important;
+            }
+        }
+        
         p {
             margin-block: var(--paragraph-spacing);
             
             line-height: var(--line-height);
         }
+        
+        
+        // hr {
+        //     &+h1,
+        //     &+h2,
+        //     &+h3,
+        //     &+h4,
+        //     &+h5,
+        //     &+h6 {
+        //         padding: unset;
+        //         margin: var(--heading-spacing-block-start) 0 var(--heading-spacing-block-end);
+        //     }
+        // }
     }
     
     
