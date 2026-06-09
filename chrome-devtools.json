@@ -1,0 +1,13 @@
+---
+layout: null
+permalink: /.well-known/appspecific/com.chrome.devtools.json
+sitemap: false
+---
+{% if jekyll.environment == "development" -%}
+{
+  "workspace": {
+    "root": {{ site.source | jsonify }},
+    "uuid": "{{ site.chrome_devtools_uuid | default: '47F00160-31A1-4BAB-BD7E-C2DA20CFFABD' }}"
+  }
+}
+{%- endif %}

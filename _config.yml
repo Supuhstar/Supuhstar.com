@@ -94,7 +94,7 @@ commonPages:
 
 
 
-# Site system info #
+# Ky system info #
 
 notableSystemIds:
     primarySystem: "zrbcSaxPS+y5kLFDFrEVcQ"
@@ -161,3 +161,5 @@ exclude:
     - Gemfile.lock
     - README.md
     - CNAME
+
+chrome_devtools_uuid: 47F00160-31A1-4BAB-BD7E-C2DA20CFFABD

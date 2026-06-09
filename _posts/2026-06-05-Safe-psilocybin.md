@@ -103,16 +103,20 @@ Here's the **tl;dr** of actually taking the shrooms. After this cheatsheet, We e
 
 
 
-### 911 if
-- severe hyperthermia, muscle rigidity
-- myoclonic jerks/seizures (~0.07% of studied cases)
-- chest pain, trouble breathing, blue lips
-- severe arrhythmia, cardiac arrest
-- loss of consciousness that can't be awoken (ego dissolution naps are expected)
-- behavior that endangers life
-- any other symptoms of serotonin toxicity, hyperthermia, andor cardiovascular strain
+### Emergency smyptoms
+Call emergency services _immediately_ in case of any of the following:
 
-When in doubt, call Poison Control: [+1 (800) 222-1222](callto:18002221222)
+- Severe hyperthermia, muscle rigidity
+- Myoclonic jerks/seizures (~0.07% of studied cases)
+- Chest pain, trouble breathing, blue lips
+- Severe arrhythmia, cardiac arrest
+- Loss of consciousness that can't be awoken (ego dissolution naps are expected)
+- Behavior that endangers life
+- Any other symptoms of serotonin toxicity, hyperthermia, andor cardiovascular strain
+
+When in doubt, call Poison Control. In the USA: [+1 (800) 222-1222](callto:18002221222)
+
+When seeking medical care, _always_ bring a sample of the same substance that caused the incident.
 
 
 
@@ -132,7 +136,6 @@ When in doubt, call Poison Control: [+1 (800) 222-1222](callto:18002221222)
 ### Dosing
 - Average 0.5~1g, max ~3.5g. Obviously lower for lower-weight people.
 - Actual psilocybin content may vary by up to ~100%.
-
 - Grind shrooms into powder before consuming to average variance
 
 
@@ -160,6 +163,7 @@ When in doubt, call Poison Control: [+1 (800) 222-1222](callto:18002221222)
 
 
 ### Prepare before dosing
+- A trusted sober person to monitor you for adverse symptoms andor a bad trip
 - A cozy & safe space. Blankets, plushies, etc.
 - Calming/interesting music & visuals
     - Instrumental preferred, especially at peak (lyrics can interrupt at best, accidentally guide at worst)
@@ -196,5 +200,37 @@ When in doubt, call Poison Control: [+1 (800) 222-1222](callto:18002221222)
 - New worldview
 - Some recovery from Long-COVID. Some studies found worsening as well.
 - Emotional trauma recovery
-
 </aside>
+
+
+
+### Safety first
+
+Unlike THC, alcohol, caffeine, nicotine, and many other psychoactive substances, psilocybin comes with notable risks.
+
+> With most healthy bodies, consuming a strain of [Psilocybe Cubensis](https://en.wikipedia.org/wiki/Psilocybe_cubensis) will result in a good experience without adverse effects. However, unknown health conditions, contaminants, etc. might lead to serious health concerns. It's best to be prepared just in case!
+
+**Always have someone trusted nearby** who can step in to help you in case of a physical or mental health emergency, or even just a bad trip. That person should read all of this as well.
+
+These are known possible symptoms of a **medical emergency** while taking psilocybin:
+
+- Severe hyperthermia, muscle rigidity
+- Myoclonic jerks/seizures (~0.07% of studied cases)
+- Chest pain, trouble breathing, blue lips
+- Severe arrhythmia, cardiac arrest
+- Loss of consciousness that can't be awoken (ego dissolution naps are expected)
+- Behavior that endangers life
+- Any other symptoms of serotonin toxicity, hyperthermia, andor cardiovascular strain
+
+If _any_ of these are experienced, _immediately_ call emergency services, or go to an emergency room. **Always bring the substance** which caused the emergency.
+
+
+
+### Bodily expectations
+
+
+
+### Mental/spiritual expectations
+
+
+
