@@ -6,7 +6,7 @@ date: 2026-06-05
 
 Psilocybin (magic mushrooms) is legal in many places now, including Colorado and Oregon!
 
-There's lots of benefits to using psylocybin, and a lot of dangers and other considerations. If you want to try it, here's a guide for doing so safely.
+There's lots of benefits to using psylocybin, and a lot of dangers and other considerations. If you want to try it, here's a guide for doing so safely and legally.
 
 
 
@@ -18,6 +18,11 @@ There's lots of benefits to using psylocybin, and a lot of dangers and other con
 >
 > **Use rarely and respectfully.**
 {:.critically-important-callout.card}
+
+
+This article's writers have **no formal training** in this field. When reading the advice in this article, understand that it was written based on peer-reviewed research, traditional practices, and personal experience. Much understanding about psilocybin was lost in the colonial era and drug wars; formal scientific understanding is very new and has a long way to go. Take this as an opinion piece. **If you are ever at all uncertain, consult a trained expert beforehand!**
+
+And, of course, _only_ do this where you can legally and safely do so. _No psychadelic is ever worth risking your life or legal status_.
 
 
 
@@ -37,10 +42,10 @@ You'll need to get a few things to make sure they can grow healthy:
 - **Heavily-pasteurized growth medium.** This is usually soil with some food in it like vermiculite, corn kernels, agar, or other high-surface area nutrients for the mycelia. We prefer premade Grow Bags from places like Colorado Cultures or Myxed Up.
 - **A bag or box to start the grow inside.** Obviously if you bought a Grow Bag or similar, you already have this. Otherwise, get a strong and thick transparent plastic bag which can be fully-sealed and easily cut through with a knife, or a plastic sealable box with a transparent top with holes which can be plugged or filtered.
     - **Micropore tape** if you're using a bag. You can find this at medical supply retailers, like pharmacies.
-    - **Filter seals** if you're using a box. You can also use micropore tape, just make sure whatever you use, it can filter out spores from other fungi while still letting air flow through.
+    - **Filter seals** if you're using a box or creating a bag. You can also use micropore tape, just make sure whatever you use, it can filter out spores from other fungi while still letting air flow through.
 - **A syringe of spores or live mycelium.** Many retailers sell these. We got Ours from Eden Shrooms and Colorado Cultures. They're usually labeled as "sample for research microscopy use only" or something similar.
-- **Alcohol prep wipes.** These are really common, you can buy them at any grocery store or pharmacy, usually near bandages andor injection supplies.
-- **Disposable nitrile gloves.** Also really common, basically found at any supermarket, pharmacy, or hardware store.
+- **Alcohol prep wipes.** These are really common, you can buy them at any grocery store or pharmacy, usually near bandages andor injection supplies. We recommend at least 100 of them for this project.
+- **Disposable nitrile gloves.** Also really common, basically found at any supermarket, pharmacy, or hardware store. We recommend at least 100 of them for this project.
 
 
 
@@ -60,17 +65,84 @@ For the bag/box, spraying/wiping it down with rubbing alcohol should be enough. 
 
 
 
-### Innoculating
+#### Make a grow bag/box
 
-After you have the **growth medium**, **bag/box**, and **syringe**, 
+After you've properly sterilized/pasteurized everything, and making sure you're clean and wearing disposable nitrile gloves, mask, hair net, etc., it's time to put the growth medium in the bag/box.
+
+If your bag/box already has a filter installed, excellent. If not, get a medical-grade micropore filter for it. Cut a hole near the top of the bag/box, and use the filter to seal that hole. This will provide the minimal internal airflow that the young mycelium needs to breathe.
+
+Find a place with still air, and make sure it remains still for at least 15 minutes before you do this.
+
+Next, simply place the growth medium in the bag/box. Pour in sterilized water (distilled is ideal, boiled otherwise) in to get the growth medium moist. You should see moisture beading up inside the bag/box, but never pooling.
+
+Seal the bag/box and you've got a **grow bag/box!**
+
+
+
+### Choosing a growing location
+
+After you have a **grow bag/box** ready to go, it's time to find a place where the grow bag/box will live.
+
+This location must be able to have **low airflow** (air conditioner turned off, windows closed, etc.) for at least 30 minutes at a time. Don't worry; you only need to care about still air while directly interacting with the shrooms like this. Usually, you just want to make sure the air is still for at least 15 minutes before you interact with the bag/box directly, and of course, throughout your interaction. This is because **any spores from any other fungus can easily contaminate the one you're trying to grow!** It's _extremely important_ when growing food-grade fungus that you make sure you _only_ grow the fungus you intend to grow.
+
+Your chosen location should also be **dark** for the entite initial mycelial growth state (weeks or months), but you should be able to introduce it to a natural cycle of **indirect sunlight** once you've got fruiting bodies.
+
+Place the grow bag/box in the growing location.
+
+
+
+### Inoculating
+
+After you have chosen your gowing location, gather the **grow bag/box**, **micropore tape**, **alcohol prep wipes**, and **syringe**.
+
+It's best to inoculate as soon as you can after purchasing the syringe, _especially for syringes of live mycelia_.
+
+> **BE VERY CAREFUL!!**
+>
+> All needles carry increased risks. Injecting mycelium/spores of any sort into yourself or others is _**lethal**_. It should be safe if you accidentally poke/scrape yourself with the needle tip, but anything more means you _must_ **call emergency services immediately!** Bring the syringe with you so that hospital personnel can test it to understand your best treatment.
+{:.critically-important-callout.card}
+
+Prepare the syringe. It should come with instructions. If not, here's a safe default:
+
+- Re-sterilize the outside of the grow bag/box with alcohol prep wipes.
+- Wash your hands and arms, put on new nitrile gloves, put on a medical mask, put on a hairnet, and then sterilize the nitrile gloves with new alcohol prep wipes while the gloves are on your hands.
+- The syring and needle should have been stored in seprate sterile containers, so you won't have to sterilize them yourself. Open both of those sterile containers.
+- Attach the needle to the end of the syringe.
+    - This is usually a standard luer lock, and it should say if it's something else. Make sure you secure it tightly, and look up beforehand how to do so with your type of syringe.
+- **If you have a grow bag:** Press the needle into the bag, and press the syringe's plunger to inject the mycelium/spores into the grow bag. It might work better if you remove the syringe and inject it repeatedly in two or three other sites as well, to spread the fungus throughout the growth medium in its young age.
+- **If you have a grow box:** Remove the lid and press the needle into the growth medium. Press the syringe's plunger to inject the mycelium/spores into the grow bag. Do this multiple times in various parts of the growth medium, to spread the fungus throughout the growth medium in its young age.
+- Immediately cap the syringe and set it to the side, somewhere safe.
+- **If you have a grow bag:** Immediately seal all the injection sites with micropore tape. Ensure the a proper seal (no dirt, no wrinkles, etc.) and then sanitize the tape with alcohol prep wipes.
+- **If you have a grow box:** Immediately place the lid back on the box and clamp it down.
+
+
+
+### Stages of growth
+
+[todo]
 
 
 
 ### Harvesting
 
+[todo]
+
+
+#### Aborts
+
+An abort is a younger mushroom that the mycelium has decided wasn't viable, and so it pumps more psilocybin into it to stop that mushroom's growth and begin reclaiming it. Because of this, these mushrooms are much more potent than a normal mushroom (usually ~1.5x to ~2x more psilocybin per gram). You can recognize them by their darker caps, and they're usually also dramatically leaning or in unusual spots.
+
+These are just as safe to consume as any other mushroom in this batch, as long as you keep in-mind that they're up to twice as potent as the others.
+
+> 1 gram of aborts, is equal to 2 grams of normal mushrooms in the same batch
+
+If you harvest an abort, keep it separate from normal mushrooms from the same batch. We recommend having a specific jar just for aborts and nothing else.
+
 
 
 ### Drying
+
+[todo]
 
 
 
@@ -78,7 +150,9 @@ After you have the **growth medium**, **bag/box**, and **syringe**,
 
 ### Cheatsheet
 
-Here's the **tl;dr** of actually taking the shrooms. [Below this cheatsheet](#elaboration), We elaborate on all these instructions.
+Here's Our **tl;dr** of actually taking the shrooms. [Below this cheatsheet](#elaboration), We elaborate on all these instructions.
+
+Again, this is all Our opinion, and We aren't formally trained in this field. **If you are ever at all uncertain, consult a trained expert beforehand!**
 
 <aside markdown=1 class="cheatsheet card">
 
@@ -141,16 +215,16 @@ When seeking medical care, _always_ bring a sample of the same substance that ca
 
 
 
-#### Expected timeline
-- Onset: 20~60min
-- Active: hours 2~9
-    - Peak: hours 2~4
-    - Plateau: hours 3~6
-    - Comedown: hours 5~9
-- Tail: hours 6~12
-- Residual: hours 12~48 (processing what happened) 
-- Afterglow: days 2~7
-
+> #### Expected timeline
+> - Onset: 20~60min
+> - Active: hours 2~9
+>     - Peak: hours 2~4
+>     - Plateau: hours 3~6
+>     - Comedown: hours 5~9
+> - Tail: hours 6~12
+> - Residual: hours 12~48 (processing what happened) 
+> - Afterglow: days 2~7
+{:.critically-important-callout.card}
 
 
 #### Expected psychological effects
@@ -250,6 +324,14 @@ We also recommend taking a second reading in the mid-late stages of the onset pe
 
 
 
+### Prepare a safe space
+
+The person who's expected to trip, should ideally remain in a place of physical safety. In addition to having a trip sitter physically nearby, they should have a soft place to lay down, things like blankets and pillows available in case they want them, etc.
+
+[todo: Music, possible snacks, puke bags, etc.]
+
+
+
 ### Expectations
 
 Here's what you should expect while you're on shrooms.
@@ -280,7 +362,10 @@ In addition to those, some less-common effects might include:
 
 As long as these remain controlable, or mild, then there is likely no medical emergency. If many of these present at the same time, **keep an eye on vitals** (temperature, heartrate, SpO2, and blood pressure) even if that means interrupting the trip.
 
-If your measurements fall outside these expected changes, that's a medical emergency and you should _immediately_ call emergency services.
+These are signs of a medical emergency:
+- [sustained resting HR over ~130, sustained systolic over ~180, etc.]
+
+If you measure _any_ signs of a medical emergecncy, _immediately_ call emergency services, and discuss with them what your symptoms are. If you're escorted to a hospital, make sure to bring a sample of the same batch you dosed this time. **Remember: it's better to get in trouble than to die.**
 
 
 
@@ -339,4 +424,49 @@ If you feel like you can't do it alone, or just want someone experienced to help
 
 ### What's a good trip look like?
 
+A trip is more likely to be a positive or neutral experience. If you have a good trip, here's some things We think you might expect within the Active period of the trip (2~9 hours after dosing), especially at the peak (~2~4 hours after dosing):
+
+- Open-eye hallucinations (some strains are more powerful than others), even when staring directly at something
+    - Colors changing
+    - Patterns on physical objects
+    - Flashes of light, moving lights, etc.
+    - "Breathing" furniture, etc.
+    - Different perception of one's own body
+- Powerful closed-eye psychadelic experiences
+    - Patterns, colors, sounds, etc. which are separate from the mind's eye
+- Feelings of bliss, euphoria, love, harmony, etc.
+    - Feelings that everything is okay
+    - Strong desire to forgive
+- Difficulty separating spoken words from thoughts
+- Inner interactions
+    - New presences, voices, visitations, etc.
+- Sleepiness
+- Tactile enjoyment (feeling good textures)
+
+
+And also some more-outward physical symptoms similar to other forms of inebriation:
+
+- Difficulty balancing
+- Slowed movement
+- Loss of apetite
+    - Or, with some strains, increased apetite
+- Floatiness
+    - Possibly including a sense that breathing is easier
+    - Possibly including a loss of feeling of heartbeat (this is one reason why we check the pulse so many times)
+
+
 ### How long should this take?
+
+[todo: timeline graphic]
+
+
+
+## How this might change you
+
+[todo]
+
+
+
+## Logging
+
+[todo: subjective experience, batch-specific potency curve, etc.]
