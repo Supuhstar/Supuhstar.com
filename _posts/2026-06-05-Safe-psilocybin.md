@@ -1,12 +1,58 @@
 ---
 date: 2026-06-05
+
+
+sources:
+    -
+        authors: Sara Gael, M.A.
+        name: "The Four Principles of Psychedelic Peer Support"
+        journal: "Zendo Project"
+        year: 2025
+        url: https://zendoproject.org/wp-content/uploads/2025/07/4-Principles-of-Psychedelic-Care.pdf
+    - 
+        journal: "Zendo Project"
+        name: "Understanding and Working with Difficult Psychedelic Experiences"
+        year: 2017
+        url: https://zendoproject.org/bulletin/understanding-and-working-with-difficult-psychedelic-experiences/
+    -
+        name: The Fireside Project
+        url: https://FiresideProject.org
+    -
+        name: 'Therapeutic Potential of Psilocybin for Treating Neuropsychiatric Long COVID Symptoms: A Reddit Investigation'
+        authors: 'Bobak, L., Dorney, I., Kovacevich, A., & Barnett, B. S.'
+        year: 2025
+        journal: 'Journal of Psychoactive Drugs'
+        url: https://doi.org/10.1080/02791072.2025.2478097
+    -
+        name: 'Adverse experiences resulting in emergency medical treatment seeking following the use of magic mushrooms'
+        authors: 'Emma I Kopra, Jason A Ferris, Adam R Winstock, Allan H Young, and James J Rucker'
+        year: 2022
+        journal: 'Journal of Psychopharmacology'
+        url: https://journals.sagepub.com/doi/pdf/10.1177/02698811221084063
+    -
+        authors: 'Yerubandi, A., Thomas, J. E., Bhuiya, N. M. M. A., Harrington, C., Villa Zapata, L., & Caballero, J.'
+        year: 2024
+        name: 'Acute Adverse Effects of Therapeutic Doses of Psilocybin: A Systematic Review and Meta-Analysis.'
+        journal: JAMA Network Open
+        url: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2817352
+    -
+        authors: Oakland Hyphae / Hyphae Labs
+        name: "Preliminary tryptamine potency analysis from dried, homogenized fruit bodies of Psilocybe mushrooms"
+        year: 2021
+        url: https://www.oaklandhyphae510.com/post/preliminary-tryptamine-potency-analysis-from-dried-homogenized-fruit-bodies-of-psilocybe-mushrooms
+    -
+        name: 'FDA Drug Safety Communication: Serious CNS reactions possible when linezolid (Zyvox) is given to patients taking certain psychiatric medications'
+        year: 2011
+        url: https://web.archive.org/web/20250201015202/https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-serious-cns-reactions-possible-when-linezolid-zyvox-given-patients
+    -
+        name: 'FDA Drug Safety Communication: Updated information about the drug interaction between linezolid (Zyvox) and serotonergic psychiatric medications'
+        year: 2011
+        url: https://web.archive.org/web/20250131234648/https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-updated-information-about-drug-interaction-between-linezolid-zyvox-and
 ---
 
 
 
-Psilocybin (magic mushrooms) is legal in many places now, including Colorado and Oregon!
-
-There's lots of benefits to using psylocybin, and a lot of dangers and other considerations. If you want to try it, here's a guide for doing so safely and legally.
+Psilocybin (magic mushrooms) is legal in many places now, including Colorado and Oregon! There's lots of benefits to using psylocybin, and a lot of dangers and other considerations. If you want to try it, here's a guide for doing so safely and legally.
 
 
 
@@ -177,27 +223,27 @@ Again, this is all Our opinion, and We aren't formally trained in this field. **
 
 
 
-#### Emergency smyptoms
-Call emergency services (911, 112, 999, 000, etc.) _immediately_ in case of any of the following:
+#### 🚨 Emergency smyptoms
+**Call emergency services _immediately_** (911, 112, 999, 000, etc.) in case of _any_ of the following:
 
 - Severe hyperthermia, muscle rigidity
-- Myoclonic jerks/seizures (~0.07% of studied cases)
+- Myoclonic jerks/seizures (very rare)
 - Chest pain, trouble breathing, blue lips
 - Severe arrhythmia, cardiac arrest
 - Loss of consciousness that can't be awoken (ego dissolution naps are expected)
 - Behavior that endangers life
 - Any other symptoms of serotonin toxicity, hyperthermia, andor cardiovascular strain
 
-When in doubt, call Poison Control. In the USA: [+1 (800) 222-1222](callto:18002221222)
+When in doubt, **call Poison Control**. In the USA: [+1 (800) 222-1222](callto:18002221222)
 
-When seeking medical care, _always_ bring a sample of the same substance that caused the incident.
+When seeking medical care, _always_ **bring a sample** of the same substance that caused the incident.
 
 
 
 #### Signs of a bad trip (safe, non-emergency):
 > fear, grief, terror, paranoia, ego-death, reliving trauma, crying, shaking, panic, sanity concerns.
 
-##### In case of a non-emergency bad trip:
+**What to do:**
 - Reassurance, safety, and patience.
 - Trust, let go, be open, breathe, surrender
 - Don't try to end the trip; sit with the person rather than directing them; offer gentle reassurance & reframing (e.g. “you took a substance, it will wear off, you are safe”)
@@ -208,10 +254,11 @@ When seeking medical care, _always_ bring a sample of the same substance that ca
 
 
 #### Dosing
-- First time: take a low dose to know whether your body will have an adverse reaction.
+If you haven't tried psilocybin (also recommended once per batch/strain), take a low dose (0.3~0.5g) to know whether your body will have an adverse reaction.
+
 - Average 0.5~1g, max ~3.5g. Obviously lower for lower-weight people.
-- Actual psilocybin content may vary by up to ~100%.
-- Grind shrooms into powder before consuming to average variance
+- Actual psilocybin content of a mushroom may vary by up to ~100%. That is to say, it might be up to 2x as strong as you expect after trying another mushroom from the same batch.
+- Grind the shrooms into powder before consuming to average variance. Use something dedicated to only this, so you don't contaminate any food.
 
 
 
@@ -238,22 +285,22 @@ When seeking medical care, _always_ bring a sample of the same substance that ca
 
 
 #### Prepare before dosing
-- A trip sitter: a trusted sober person to monitor you for adverse symptoms andor a bad trip
-- A cozy & safe space. Blankets, plushies, etc.
-- Calming/interesting music & visuals
-    - Instrumental preferred, especially at peak (lyrics can interrupt at best, accidentally guide at worst)
-    - The Johns Hopkins / Mendel Kaelen playlists are a good default 
-- A thermometer, pulseox, & blood pressure cuff at the ready
-    - take vitals before dosing in case a baseline is needed during the active experience
-- A vomit bag/bucket
-- Have snacks ready
-- Have a light meal 3~4hrs before
-- Empty bladder & bowels immediately before
-- Ginger chews or tea for nausea
-    - HEART DANGER:  NEVER DRAMAMINE
-- Sour candy / salty snack for grounding if needed
-- Eyeshades / sleep mask for ego dissolution naps
-- Easy bathroom access with door unlocked (no locking oneself in alone)
+- A **trip sitter**: a trusted sober person to monitor you for adverse symptoms andor a bad trip
+- A **cozy & safe** space. Blankets, plushies, etc.
+- Calming/interesting **music & visuals**
+    - **Instrumental** preferred, especially at peak (lyrics can interrupt at best, accidentally guide at worst)
+    - The Johns Hopkins / Mendel Kaelen playlists are a good default. We personally prefer **Max Cooper**.
+- A **thermometer**, **pulseox**, & **blood pressure cuff** at the ready
+    - **Remember:** take vitals before dosing in case a **baseline** is needed during the active experience
+- A **vomit bag**/bucket
+- Have a light meal 3~4hrs **before** (and then fast until tripping, to reduce chance of vomiting)
+- Have **snacks** ready just in case
+- **Empty bladder & bowels** immediately before
+- Ginger chews or **tea for nausea**
+    - **⚠️ _HEART DANGER_:  NEVER DRAMAMINE**
+- Sour candy / salty **snack for grounding** if needed
+- Eyeshades / **sleep mask** for ego dissolution naps
+- Easy **bathroom** access with door unlocked (no locking oneself in alone)
 
 
 
@@ -326,9 +373,15 @@ We also recommend taking a second reading in the mid-late stages of the onset pe
 
 ### Prepare a safe space
 
-The person who's expected to trip, should ideally remain in a place of physical safety. In addition to having a trip sitter physically nearby, they should have a soft place to lay down, things like blankets and pillows available in case they want them, etc.
+The person who's expected to trip, should ideally **remain somewhere which is physically safe**. In addition to having a trip sitter physically nearby, they should have a soft place to lay down, things like **blankets and pillows** available in case they want them, etc.
 
-[todo: Music, possible snacks, puke bags, etc.]
+The place should have **gentle and mildly-interesting music**, ideally instrumental (especially at the peak and during naps). This can do wonders to help guarantee a good trip, especially if the tripper is vibing well with the music.
+
+Psilocybin can **increase _or decrease_ apetite**, so We recommend having some snacks nearby that are gentle on the stomach in case the tripper gets snacky. If they has a _loss_ of apetite while on psilocybin, then be prepared for them to be very hungry after they come down from their trip.
+
+Another expected effect of psilocybin is nausea, and sometimes vomiting within the first 30~90 minutes. Be sure to have puke-bags/buckets handy. **NEVER MIX DRAMAMINE AND PSILOCYBIN!**
+
+[todo: puke bags, etc.]
 
 
 
@@ -346,6 +399,8 @@ A normal trip is expected to have these physical effects, but it's okay if it do
 - Unsteadiness, poor coordination, mild dizziness, etc.
 - Flatulence (may continue well after the trip)
 
+Some studies also found that psilocybin offers recovery from some permanent ailments, such as those brought on by long-COVID (~75% of participants). However, some studies found worsening as well (~12% of participants).
+
 
 In addition to those, some less-common effects might include:
 
@@ -360,12 +415,24 @@ In addition to those, some less-common effects might include:
 - Mild headache
 
 
-As long as these remain controlable, or mild, then there is likely no medical emergency. If many of these present at the same time, **keep an eye on vitals** (temperature, heartrate, SpO2, and blood pressure) even if that means interrupting the trip.
+As long as these remain controlable, or mild, then there is likely no medical emergency. If more than one of these present at the same time, **keep an eye on vitals** (temperature, heartrate, SpO2, and blood pressure) even if that means interrupting the trip.
 
 These are signs of a medical emergency:
-- [sustained resting HR over ~130, sustained systolic over ~180, etc.]
+- Sustained resting **heartrate over ~130** bpm
+- Sustained systolic **blood pressure over ~180** mmhg
+- Sustained body **temperature over 104 ºF / 40 ºC**
+- Severe arrhythmia
+- Actions/behaviors that endanger
+- Cardiac arrest
+- Seizures[*](#a-note-on-seizures)
+- Symptoms of seratonin toxicity, cardiovascular distress, etc.
+- Any other common reasons to call emergency services or go to a hospital
 
-If you measure _any_ signs of a medical emergecncy, _immediately_ call emergency services, and discuss with them what your symptoms are. If you're escorted to a hospital, make sure to bring a sample of the same batch you dosed this time. **Remember: it's better to get in trouble than to die.**
+If you measure _any_ signs of a medical emergecncy, _immediately_ call emergency services, and temm them the symptoms. If you're escorted to a hospital, make sure to **bring a sample** of the same batch you dosed this time. **Remember: it's better to get in trouble than to die.**
+
+<aside markdown=1><a name="a-note-on-seizures"/>
+\*Seizures are very rare from psilocybin use. In a study of people seeking emergency treatments and also using psilocybin (which is already uncommon), ~2.9% of those people experienced seizures to some level. Further reading: Kopra et al. (2022) "Adverse experiences resulting in emergency medical treatment seeking following the use of magic mushrooms"
+</aside>
 
 
 
@@ -378,7 +445,7 @@ Unlike THC, alcohol, caffeine, nicotine, and many other psychoactive substances,
 > Psilocybin (magic mushrooms) **_isn't_ for getting high** and having fun. Treat it with respect & deference as a substance that assists in a **spiritual experience**, like DMT (ayahuasca), mescaline (peyote), etc..
 
 
-While on shrooms, you should expect:
+While on shrooms, expect:
 
 - Psychadelic hallucinations
 - A modified perception of reality, including when your eyes are open and you're trying to focus
@@ -387,7 +454,15 @@ While on shrooms, you should expect:
 - Past-life memories coming to you
 - A sense of "oneness" (what exactly this means can vary wildly)
 
-You might be familiar with some of these already. If you've never tried psilocybin before, be prepared for it to still be much different than you're used to.
+You might be familiar with some of these already. Even if you've never tried psilocybin before, be prepared for it to still be much different than you're used to.
+
+
+After sobering up, expect some permanent effects, such as:
+
+- A new understanding of oneself
+- A new worldview
+- Some recovery from emotional trauma
+- Plurality changes
 
 
 

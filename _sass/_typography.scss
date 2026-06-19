@@ -114,13 +114,13 @@ p {
     --spacing-after-h3: calc(1.50 * var(--font-size-body));
     
     --spacing-before-h4: min(1em, 25vh);
-    --spacing-after-h4: calc(1.50 * var(--font-size-body));
+    --spacing-after-h4: calc(1.00 * var(--font-size-body));
     
     --spacing-before-h5: min(1em, 25vh);
-    --spacing-after-h5: calc(1.50 * var(--font-size-body));
+    --spacing-after-h5: calc(1.00 * var(--font-size-body));
     
     --spacing-before-h6: min(1em, 25vh);
-    --spacing-after-h6: calc(1.50 * var(--font-size-body));
+    --spacing-after-h6: calc(1.00 * var(--font-size-body));
     
     @at-root {
         .app-bar & {
