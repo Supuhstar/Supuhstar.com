@@ -70,6 +70,10 @@ This article's writers have **no formal training** in this field. When reading t
 
 And, of course, _only_ do this where you can legally and safely do so. _No psychadelic is ever worth risking your life or legal status_.
 
+If you are unsure if psilocybin is safe for your body/mind, **ask your doctor**.
+
+{:toc}
+
 
 
 ## Growing
@@ -285,6 +289,7 @@ If you haven't tried psilocybin (also recommended once per batch/strain), take a
 
 
 #### Prepare before dosing
+- [**Be sober!**](#be-sober) For at least 1 day before, avoid alcohol, SSRIs, caffeine, THC, nicotine, psilocybin, DMT, mezcaline, any anything else that affects your heart/mind.
 - A **trip sitter**: a trusted sober person to monitor you for adverse symptoms andor a bad trip
 - A **cozy & safe** space. Blankets, plushies, etc.
 - Calming/interesting **music & visuals**
@@ -348,6 +353,18 @@ These are known possible symptoms of a **medical emergency** while taking psiloc
 - Any other symptoms of serotonin toxicity, hyperthermia, andor cardiovascular strain
 
 If _any_ of these are observed, _immediately_ call emergency services, or go to an emergency room / A&E. **Always bring the substance** which caused the emergency.
+
+
+> #### <big>Be sober!</big>
+> 
+> You won't want to crossfade psilocybin with anything else.
+> No alcohol, SSRIs, caffeine, THC, nicotine, psilocybin, DMT, mezcaline, medications which increase blood pressure, anything at all affecting the heart/brain.
+> **Be stone-cold sober** for _at least 1 day_ before dosing psilocybin.
+> 
+> This is largely due to psilocybin's expected cardiac and neural effects, which if crossfaded, can lead to medical emergencies such as hyperthermia, seizures, heart attack, and more.
+>
+> If you require any of these, for example as a prescription drug, **ask your doctor** if it's safe to use psilocybin.
+{:.critically-important-callout.card}
 
 
 #### Have supplies handy
@@ -532,7 +549,41 @@ And also some more-outward physical symptoms similar to other forms of inebriati
 
 ### How long should this take?
 
-[todo: timeline graphic]
+[![An illustration of the below information](/images/Psilocybin trip timeline.png){:.card}](/images/Psilocybin trip timeline.png)
+
+Obviously, the amount of your dose has an effect, but in general expect this:
+
+| Time since dosing | Phase          | Phase kind    |
+| ----------------: | :------------- | :------------ |
+|                 0 | Dose           |               |
+|     20~60 minutes | Comeup / onset |               |
+|         2~4 hours | Peak           | Active        |
+|         3~6 hours | Plateau        | Active        |
+|         5~9 hours | Comedown       | Active        |
+|        6~12 hours | Tail           |               |
+|       12~48 hours | Residual       | Integration   |
+|          2~7 days | Afterglow      | Integration   |
+
+Each of these is detailed in the following sections.
+
+
+### Dosing
+
+You've got the dried mushrooms and you're ready to actually eat them.
+
+If they haven't already been weighed, you're gonna want to use a high-resolution scale to make sure you're only taking exactly as much as you intend, **one that measures as fine as 0.01g**.
+
+
+### Comeup, AKA onset
+
+
+### Active (peak, plateau, & comedown)
+
+
+### Tail
+
+
+### Itegration (residual & afterglow)
 
 
 

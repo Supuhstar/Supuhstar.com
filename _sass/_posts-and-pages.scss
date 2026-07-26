@@ -30,6 +30,25 @@
          */
         padding-top: calc(3 * var(--app-bar-height-auto));
         margin-top: calc(-3 * var(--app-bar-height-auto));
+        
+        // &:target {
+        //     width:auto;
+        //     height:0;
+        //     border-block-end:1ex solid var(--theme-accent-color, currentColor);
+        //     display:block;
+        //     margin-block-end: 1ex;
+        // }
+        
+        
+        @at-root
+        .post, .page {
+            aside:has(a:empty:target) {
+                border-color: var(--theme-accent-color);
+                border-width: thick;
+                opacity: 1;
+                box-shadow: var(--box-shadow-z24);
+            }
+        }
     }
     
     footer {
@@ -264,6 +283,14 @@
     
     
     img {
+        &:not(.plain) {
+            max-width: 100%;
+        }
+        
+        &.card:not(.background) {
+            margin: 0;
+        }
+        
         &.mid-post-hero,
         &.end-post-hero {
             display: block;
